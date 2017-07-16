@@ -10,10 +10,11 @@ var header = document.getElementsByClassName('header')[0];
 var left = document.getElementById('left');
 var right = document.getElementById('right');
 var tmp = 1;
-bg.style.height = window.screen.availHeight + 'px';
+var H=window.innerHeight
+bg.style.height = H + 'px';
 fff[0].style.opacity = 1;
-content1.style = 'display: block;position:absolute;z-index:1;width:100%;top:' + window.screen.availHeight + 'px';
-alert(content1.style.top)
+content1.style = 'display: block;position:absolute;z-index:1;width:100%;top:' + H + 'px';
+alert('a'+content1.style.top)
 
 
 function removeClass(curEle, strClass) {

@@ -11,10 +11,10 @@ var left = document.getElementById('left');
 var right = document.getElementById('right');
 var tmp = 1;
 bg.style.height = window.screen.availHeight + 'px';
-//bg.style.width = window.screen.availWidth + 'px';
 fff[0].style.opacity = 1;
 content1.style = 'display: block;position:absolute;z-index:1;width:100%;top:' + window.screen.availHeight + 'px';
-alert(window.screen.availHeight)
+alert(content1.style.top)
+
 
 function removeClass(curEle, strClass) {
     var aryClass = strClass.replace(/(^ +)|( +$)/g, '').split(/\s+/g);

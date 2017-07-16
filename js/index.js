@@ -15,8 +15,8 @@ bg.style.height = H + 'px';
 fff[0].style.opacity = 1;
 content1.style = 'display: block;position:absolute;z-index:1;width:100%;top:' + H + 'px';
 alert('b'+content1.style.top);
-var a=document.body.scrollHeight
-console.log(H)
+var a=document.body.scrollHeight;
+console.log(H);
 
 
 function removeClass(curEle, strClass) {

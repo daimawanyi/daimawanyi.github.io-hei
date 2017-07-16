@@ -783,7 +783,6 @@ function changeContent() {
         }
         var part21 = document.getElementsByClassName('part3')[1];
         if (offset(part21).top <= cs && offset(part21).top!=0) {
-            console.log(part21)
             if(part21.className=='part3')
                 part21.className += ' ' + 'fade'
         }

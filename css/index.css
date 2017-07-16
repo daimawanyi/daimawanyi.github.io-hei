@@ -115,11 +115,11 @@ a{
         background-position: 0 0;
     }
     to {
-        background-position: 5% 0;
+        background-position: 10% 0;
     }
 }
 .cont1-21{
-    background-position: 5% 0;
+    background-position: 10% 0;
 
 }
 @keyframes cont1-3 {
@@ -127,26 +127,26 @@ a{
         background-position: 0 0;
     }
     to {
-        background-position: 10% 0;
+        background-position: 20% 0;
     }
 }
 .cont1-31{
-    background-position: 10% 0;
+    background-position: 20% 0;
 }
 @keyframes cont1-4 {
     from {
         background-position: 0 0;
     }
     to {
-        background-position: 15% 0;
+        background-position: 30% 0;
     }
 }
 .cont1-41{
-    background-position: 15% 0;
+    background-position: 30% 0;
 }
 @keyframes cont2-1 {
     from {
-        background-position: 5% 0;
+        background-position: 10% 0;
     }
     to {
         background-position: 0 0;
@@ -157,29 +157,29 @@ a{
 }
 @keyframes cont2-3 {
     from {
-        background-position: 5% 0;
+        background-position: 10% 0;
     }
     to {
-        background-position: 10% 0;
+        background-position: 20% 0;
     }
 }
 .cont2-31{
-    background-position: 10% 0;
+    background-position: 20% 0;
 }
 @keyframes cont2-4 {
     from {
-        background-position: 5% 0;
+        background-position: 10% 0;
     }
     to {
-        background-position: 15% 0;
+        background-position: 30% 0;
     }
 }
 .cont2-41{
-    background-position: 15% 0;
+    background-position: 30% 0;
 }
 @keyframes cont3-1 {
     from {
-        background-position: 10% 0;
+        background-position: 20% 0;
     }
     to {
         background-position: 0 0;
@@ -190,29 +190,29 @@ a{
 }
 @keyframes cont3-2 {
     from {
-        background-position: 10% 0;
+        background-position: 20% 0;
     }
     to {
-        background-position: 5% 0;
+        background-position: 10% 0;
     }
 }
 .cont3-21{
-    background-position: 5% 0;
+    background-position: 10% 0;
 }
 @keyframes cont3-4 {
     from {
-        background-position: 10% 0;
+        background-position: 20% 0;
     }
     to {
-        background-position: 15% 0;
+        background-position: 30% 0;
     }
 }
 .cont3-41{
-    background-position: 15% 0;
+    background-position: 30% 0;
 }
 @keyframes cont4-1 {
     from {
-        background-position: 15% 0;
+        background-position: 30% 0;
     }
     to {
         background-position: 0 0;
@@ -223,25 +223,25 @@ a{
 }
 @keyframes cont4-2 {
     from {
-        background-position: 15% 0;
+        background-position: 30% 0;
     }
     to {
-        background-position: 5% 0;
+        background-position: 20% 0;
     }
 }
 .cont4-21{
-    background-position: 5% 0;
+    background-position: 20% 0;
 }
 @keyframes cont4-3 {
     from {
-        background-position: 15% 0;
+        background-position: 30% 0;
     }
     to {
-        background-position: 10% 0;
+        background-position: 20% 0;
     }
 }
 .cont4-31{
-    background-position: 10% 0;
+    background-position: 20% 0;
 }
 .first-screen img:nth-of-type(1){
     vertical-align: top;
@@ -588,4 +588,7 @@ a{
         opacity: 1;
 
     }
+}
+.fade1{
+
 }

@@ -739,13 +739,17 @@ function changeContent() {
         var part11 = document.getElementsByClassName('part3')[0];
         if (offset(part11).top <= cs) {
             if(part11.className=='part3')
-            part11.className += ' ' + 'fade'
+            part11.className += ' ' + 'fade';
+
+
+            var part11_1 = document.getElementsByClassName('part4')[0];
+            part11_1.style.opacity='0';
+            if(offset(part11_1).top <= cs){
+                part11_1.style.opacity='1'
+            }
+
         }
-        var part11_1 = document.getElementsByClassName('part4')[0];
-        part11_1.style.opacity='0';
-        if(part11.style.opacity==1){
-            part11_1.style.opacity='1'
-        }
+
 
         var part12 = document.getElementsByClassName('part5')[0];
         if (offset(part12).top <= cs) {
@@ -915,7 +919,7 @@ function changeContent() {
         }
         var part41_1 = document.getElementsByClassName('part4')[3];
         part41_1.style.opacity='0';
-        if(part41_1.style.opacity==1){
+        if(offset(part41_1).top <= cs){
             part41_1.style.opacity='1'
         }
 
@@ -926,7 +930,7 @@ function changeContent() {
         }
         var part42_1 = document.getElementsByClassName('part6')[2];
         part42_1.style.opacity='0';
-        if(part42_1.style.opacity==1){
+        if(offset(part42_1).top <= cs){
             part42_1.style.opacity='1'
         }
         var part43 = document.getElementsByClassName('part7')[2];
@@ -936,7 +940,7 @@ function changeContent() {
         }
         var part43_1 = document.getElementsByClassName('part8')[2];
         part43_1.style.opacity='0';
-        if(part43_1.style.opacity==1){
+        if(offset(part43_1).top <= cs){
             part43_1.style.opacity='1'
         }
         var part44 = document.getElementsByClassName('part9')[2];
@@ -946,7 +950,7 @@ function changeContent() {
         }
         var part44_1 = document.getElementsByClassName('part10')[2];
         part44_1.style.opacity='0';
-        if(part44_1.style.opacity==1){
+        if(offset(part44_1).top <= cs){
             part44_1.style.opacity='1'
         }
         var part45 = document.getElementsByClassName('part11')[2];

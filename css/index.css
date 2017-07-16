@@ -263,7 +263,9 @@ a{
 
 
 
-
+.content1{
+    background-color: #172536;
+}
 .content1 .part2{
     height: 11.48rem;
     background: url("../img/patr1_03.png") no-repeat;
@@ -321,7 +323,9 @@ a{
 }
 
 /********************cont2******************************/
-
+.content2{
+    background-color: #4d807b;
+}
 .content2 .part2{
     height: 7.75rem;
     background: url("../img/page2/M-02_04.png") no-repeat;
@@ -499,6 +503,9 @@ a{
     background-size: 100% 100%;
 }
 /********************cont4******************************/
+.content4{
+    background-color: #704781;
+}
 .content4 .part2{
     height: 24.52rem;
     background: url("../img/page4/page4_02.png") no-repeat;

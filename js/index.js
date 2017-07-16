@@ -737,20 +737,16 @@ function changeContent() {
             header.style = ''
         }
         var part11 = document.getElementsByClassName('part3')[0];
-        /*if(part11.getBoundingClientRect().top <= 0){
-         bg.style.display='none'
-         setTimeout(function (){
-         bg.style.display='block';
-         removeClass(part11,'fade');
-         bg.style.display='block';
-         },100);
-
-         part11.className+=' '+'fade'
-         }*/
         if (offset(part11).top <= cs) {
             if(part11.className=='part3')
             part11.className += ' ' + 'fade'
         }
+        var part11_1 = document.getElementsByClassName('part4')[0];
+        part11_1.style.opacity='0';
+        if(part11.style.opacity==1){
+            part11_1.style.opacity='1'
+        }
+
         var part12 = document.getElementsByClassName('part5')[0];
         if (offset(part12).top <= cs) {
             if(part12.className=='part5')
@@ -917,20 +913,41 @@ function changeContent() {
             if(part41.className=='part3')
                 part41.className += ' ' + 'fade'
         }
+        var part41_1 = document.getElementsByClassName('part4')[3];
+        part41_1.style.opacity='0';
+        if(part41_1.style.opacity==1){
+            part41_1.style.opacity='1'
+        }
+
         var part42 = document.getElementsByClassName('part5')[2];
         if (offset(part42).top <= cs && offset(part42).top!=0) {
             if(part42.className=='part5')
                 part42.className += ' ' + 'fade'
+        }
+        var part42_1 = document.getElementsByClassName('part6')[2];
+        part42_1.style.opacity='0';
+        if(part42_1.style.opacity==1){
+            part42_1.style.opacity='1'
         }
         var part43 = document.getElementsByClassName('part7')[2];
         if (offset(part43).top <= cs && offset(part43).top!=0) {
             if(part43.className=='part7')
                 part43.className += ' ' + 'fade'
         }
+        var part43_1 = document.getElementsByClassName('part8')[2];
+        part43_1.style.opacity='0';
+        if(part43_1.style.opacity==1){
+            part43_1.style.opacity='1'
+        }
         var part44 = document.getElementsByClassName('part9')[2];
         if (offset(part44).top <= cs && offset(part44).top!=0) {
             if(part44.className=='part9')
                 part44.className += ' ' + 'fade'
+        }
+        var part44_1 = document.getElementsByClassName('part10')[2];
+        part44_1.style.opacity='0';
+        if(part44_1.style.opacity==1){
+            part44_1.style.opacity='1'
         }
         var part45 = document.getElementsByClassName('part11')[2];
         if (offset(part45).top <= cs && offset(part45).top!=0) {

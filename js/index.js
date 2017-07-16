@@ -14,7 +14,7 @@ bg.style.height = window.screen.availHeight + 'px';
 //bg.style.width = window.screen.availWidth + 'px';
 fff[0].style.opacity = 1;
 content1.style = 'display: block;position:absolute;z-index:1;width:100%;top:' + window.screen.availHeight + 'px';
-
+alert(window.screen.availHeight)
 
 function removeClass(curEle, strClass) {
     var aryClass = strClass.replace(/(^ +)|( +$)/g, '').split(/\s+/g);

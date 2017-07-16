@@ -1,21 +1,25 @@
-body{
-    font-size:100px;
+body {
+    font-size: 100px;
 }
-html,body,div,h1,h2,h3,h4,h5,h6,span,ul,li,img,i,b,p{
+
+html, body, div, h1, h2, h3, h4, h5, h6, span, ul, li, img, i, b, p {
     margin: 0;
     padding: 0;
     list-style: none;
 }
-a{
-    text-decoration:none;
+
+a {
+    text-decoration: none;
 }
-.header{
+
+.header {
     position: fixed;
     z-index: 2;
     width: 100%;
     height: 1.11rem;
 }
-.header img{
+
+.header img {
     width: .7rem;
     height: .7rem;
     display: block;
@@ -23,91 +27,109 @@ a{
     margin-top: .4rem;
     margin-left: .4rem;
 }
-.header ul{
+
+.header ul {
     font-size: .21rem;
     display: inline-block;
     vertical-align: top;
 }
-.header ul li{
+
+.header ul li {
     float: left;
     color: #fff;
-    opacity:0.5;
+    opacity: 0.5;
 
 }
-.header ul li:nth-of-type(1){
+
+.header ul li:nth-of-type(1) {
     margin-top: .64rem;
     margin-left: 1.23rem;
-    opacity:1;
+    opacity: 1;
 }
-.header ul li:nth-of-type(2),.header ul li:nth-of-type(4),.header ul li:nth-of-type(6){
+
+.header ul li:nth-of-type(2), .header ul li:nth-of-type(4), .header ul li:nth-of-type(6) {
     height: .14rem;
     border: .01rem solid #FFFFFF;
     line-height: .14rem;
     margin-top: .7rem;
     margin-left: .27rem;
 }
-.header ul li:nth-of-type(3),.header ul li:nth-of-type(5),.header ul li:nth-of-type(7){
+
+.header ul li:nth-of-type(3), .header ul li:nth-of-type(5), .header ul li:nth-of-type(7) {
     margin-top: .65rem;
     margin-left: .23rem;
 }
-.header ul li a{
+
+.header ul li a {
     color: #FFFFFF;
 }
 
-.first-screen{
+.first-screen {
     background: url("../img/bg-1.png") no-repeat;
     background-size: 200% 110%;
-    position:fixed;
-    z-index:-1;
-    width:100%;
+    position: fixed;
+    z-index: -1;
+    width: 100%;
 }
-.fir-act1-2{
+
+.fir-act1-2 {
     animation: cont1-2 1s linear 1;
-    animation-fill-mode : forwards;
+    animation-fill-mode: forwards;
 }
-.fir-act1-3{
+
+.fir-act1-3 {
     animation: cont1-3 1s linear 1;
-    animation-fill-mode : forwards;
+    animation-fill-mode: forwards;
 }
-.fir-act1-4{
+
+.fir-act1-4 {
     animation: cont1-4 1s linear 1;
-    animation-fill-mode : forwards;
+    animation-fill-mode: forwards;
 }
-.fir-act2-1{
+
+.fir-act2-1 {
     animation: cont2-1 1s linear 1;
-    animation-fill-mode : forwards;
+    animation-fill-mode: forwards;
 }
-.fir-act2-3{
+
+.fir-act2-3 {
     animation: cont2-3 1s linear 1;
-    animation-fill-mode : forwards;
+    animation-fill-mode: forwards;
 }
-.fir-act2-4{
+
+.fir-act2-4 {
     animation: cont2-4 1s linear 1;
-    animation-fill-mode : forwards;
+    animation-fill-mode: forwards;
 }
-.fir-act3-1{
+
+.fir-act3-1 {
     animation: cont3-1 1s linear 1;
-    animation-fill-mode : forwards;
+    animation-fill-mode: forwards;
 }
-.fir-act3-2{
+
+.fir-act3-2 {
     animation: cont3-2 1s linear 1;
-    animation-fill-mode : forwards;
+    animation-fill-mode: forwards;
 }
-.fir-act3-4{
+
+.fir-act3-4 {
     animation: cont3-4 1s linear 1;
-    animation-fill-mode : forwards;
+    animation-fill-mode: forwards;
 }
-.fir-act4-1{
+
+.fir-act4-1 {
     animation: cont4-1 1s linear 1;
-    animation-fill-mode : forwards;
+    animation-fill-mode: forwards;
 }
-.fir-act4-2{
+
+.fir-act4-2 {
     animation: cont4-2 1s linear 1;
-    animation-fill-mode : forwards;
+    animation-fill-mode: forwards;
 }
-.fir-act4-3{
+
+.fir-act4-3 {
     animation: cont4-3 1s linear 1;
-    animation-fill-mode : forwards;
+    animation-fill-mode: forwards;
 }
 
 @keyframes cont1-2 {
@@ -118,10 +140,12 @@ a{
         background-position: 10% 0;
     }
 }
-.cont1-21{
+
+.cont1-21 {
     background-position: 10% 0;
 
 }
+
 @keyframes cont1-3 {
     from {
         background-position: 0 0;
@@ -130,9 +154,11 @@ a{
         background-position: 20% 0;
     }
 }
-.cont1-31{
+
+.cont1-31 {
     background-position: 20% 0;
 }
+
 @keyframes cont1-4 {
     from {
         background-position: 0 0;
@@ -141,9 +167,11 @@ a{
         background-position: 30% 0;
     }
 }
-.cont1-41{
+
+.cont1-41 {
     background-position: 30% 0;
 }
+
 @keyframes cont2-1 {
     from {
         background-position: 10% 0;
@@ -152,9 +180,11 @@ a{
         background-position: 0 0;
     }
 }
-.cont2-11{
+
+.cont2-11 {
     background-position: 0 0;
 }
+
 @keyframes cont2-3 {
     from {
         background-position: 10% 0;
@@ -163,9 +193,11 @@ a{
         background-position: 20% 0;
     }
 }
-.cont2-31{
+
+.cont2-31 {
     background-position: 20% 0;
 }
+
 @keyframes cont2-4 {
     from {
         background-position: 10% 0;
@@ -174,9 +206,11 @@ a{
         background-position: 30% 0;
     }
 }
-.cont2-41{
+
+.cont2-41 {
     background-position: 30% 0;
 }
+
 @keyframes cont3-1 {
     from {
         background-position: 20% 0;
@@ -185,9 +219,11 @@ a{
         background-position: 0 0;
     }
 }
-.cont3-11{
+
+.cont3-11 {
     background-position: 0 0;
 }
+
 @keyframes cont3-2 {
     from {
         background-position: 20% 0;
@@ -196,9 +232,11 @@ a{
         background-position: 10% 0;
     }
 }
-.cont3-21{
+
+.cont3-21 {
     background-position: 10% 0;
 }
+
 @keyframes cont3-4 {
     from {
         background-position: 20% 0;
@@ -207,9 +245,11 @@ a{
         background-position: 30% 0;
     }
 }
-.cont3-41{
+
+.cont3-41 {
     background-position: 30% 0;
 }
+
 @keyframes cont4-1 {
     from {
         background-position: 30% 0;
@@ -218,9 +258,11 @@ a{
         background-position: 0 0;
     }
 }
-.cont4-11{
+
+.cont4-11 {
     background-position: 0 0;
 }
+
 @keyframes cont4-2 {
     from {
         background-position: 30% 0;
@@ -229,9 +271,11 @@ a{
         background-position: 20% 0;
     }
 }
-.cont4-21{
+
+.cont4-21 {
     background-position: 20% 0;
 }
+
 @keyframes cont4-3 {
     from {
         background-position: 30% 0;
@@ -240,355 +284,425 @@ a{
         background-position: 20% 0;
     }
 }
-.cont4-31{
+
+.cont4-31 {
     background-position: 20% 0;
 }
-.first-screen img:nth-of-type(1){
+
+.first-screen img:nth-of-type(1) {
     vertical-align: top;
     float: left;
     margin-left: .4rem;
     margin-top: 4.68rem;
-}.first-screen img:nth-of-type(2){
-     float: left;
-     margin-left: .62rem;
-     margin-top: 2.63rem;
+}
+
+.first-screen img:nth-of-type(2) {
+    float: left;
+    margin-left: .62rem;
+    margin-top: 2.63rem;
     width: 4.2rem;
     height: 4.2rem;
- }
-.first-screen img:nth-of-type(3){
+}
+
+.first-screen img:nth-of-type(3) {
     float: left;
     margin-left: .62rem;
     margin-top: 4.68rem;
 }
 
-
-
-.content1{
+.content1 {
+    display: block;
+    position: absolute;
+    z-index: 1;
+    width: 100%;
     background-color: #172536;
+    top: 100px;
 }
-.content1 .part2{
+
+.content1 .part2 {
     height: 11.48rem;
     background: url("../img/patr1_03.png") no-repeat;
     background-size: 100% 100%;
 }
-.content1 .part3{
+
+.content1 .part3 {
     height: 6.27rem;
     background: url("../img/patr1_04.png") no-repeat;
     background-size: 100% 100%;
 
 }
-.content1 .part4{
+
+.content1 .part4 {
     height: 4.28rem;
     background: url("../img/patr1_05.png") no-repeat;
     background-size: 100% 100%;
 
 }
-.content1 .part5{
+
+.content1 .part5 {
     height: 2.58rem;
     background: url("../img/patr1_06.png") no-repeat;
     background-size: 100% 100%;
 
 }
-.content1 .part6{
+
+.content1 .part6 {
     height: 3.6rem;
     background: url("../img/patr1_07.png") no-repeat;
     background-size: 100% 100%;
 
 }
-.content1 .part7{
+
+.content1 .part7 {
     height: 2rem;
     background: url("../img/patr1_08.png") no-repeat;
     background-size: 100% 100%;
 
 }
-.content1 .part8{
+
+.content1 .part8 {
     height: 2rem;
     background: url("../img/patr1_09.png") no-repeat;
     background-size: 100% 100%;
 }
-.content1 .part9{
+
+.content1 .part9 {
     height: 2.31rem;
     background: url("../img/patr1_10.png") no-repeat;
     background-size: 100% 100%;
 }
-.content1 .part10{
+
+.content1 .part10 {
     height: 2.9rem;
     background: url("../img/patr1_11.png") no-repeat;
     background-size: 100% 100%;
 }
-.content1 .part11{
+
+.content1 .part11 {
     height: 42.5rem;
     background: url("../img/patr1_12.png") no-repeat;
     background-size: 100% 100%;
 }
 
 /********************cont2******************************/
-.content2{
+.content2 {
     background-color: #4d807b;
 }
-.content2 .part2{
+
+.content2 .part2 {
     height: 7.75rem;
     background: url("../img/page2/M-02_04.png") no-repeat;
     background-size: 100% 100%;
 }
-.content2 .part3{
+
+.content2 .part3 {
     height: 4.18rem;
     background: url("../img/page2/M-02_05.png") no-repeat;
     background-size: 100% 100%;
 }
-.content2 .part4{
+
+.content2 .part4 {
     height: 4.08rem;
     background: url("../img/page2/M-02_06.png") no-repeat;
     background-size: 100% 100%;
 }
-.content2 .part5{
+
+.content2 .part5 {
     height: 4.08rem;
     background: url("../img/page2/M-02_07.png") no-repeat;
     background-size: 100% 100%;
 }
-.content2 .part6{
+
+.content2 .part6 {
     height: 4.98rem;
     background: url("../img/page2/M-02_08.png") no-repeat;
     background-size: 100% 100%;
 }
-.content2 .part7{
+
+.content2 .part7 {
     height: 4.89rem;
     background: url("../img/page2/M-02_09.png") no-repeat;
     background-size: 100% 100%;
 }
-.content2 .part8{
+
+.content2 .part8 {
     height: 4.87rem;
     background: url("../img/page2/M-02_10.png") no-repeat;
     background-size: 100% 100%;
 }
-.content2 .part9{
+
+.content2 .part9 {
     height: 3.67rem;
     background: url("../img/page2/M-02_12.png") no-repeat;
     background-size: 100% 100%;
 }
-.content2 .part10{
+
+.content2 .part10 {
     height: 2.03rem;
     background: url("../img/page2/M-02_13.png") no-repeat;
     background-size: 100% 100%;
 }
-.content2 .part11{
+
+.content2 .part11 {
     height: 2.03rem;
     background: url("../img/page2/M-02_14.png") no-repeat;
     background-size: 100% 100%;
 }
-.content2 .part12{
+
+.content2 .part12 {
     height: 2.03rem;
     background: url("../img/page2/M-02_15.png") no-repeat;
     background-size: 100% 100%;
 }
-.content2 .part13{
+
+.content2 .part13 {
     height: 1.8rem;
     background: url("../img/page2/M-02_16.png") no-repeat;
     background-size: 100% 100%;
 }
-.content2 .part14{
+
+.content2 .part14 {
     height: 3.98rem;
     background: url("../img/page2/M-02_17.png") no-repeat;
     background-size: 100% 100%;
 }
-.content2 .part15{
+
+.content2 .part15 {
     height: 2.48rem;
     background: url("../img/page2/M-02_18.png") no-repeat;
     background-size: 100% 100%;
 }
-.content2 .part16{
+
+.content2 .part16 {
     height: 2.75rem;
     background: url("../img/page2/M-02_19.png") no-repeat;
     background-size: 100% 100%;
 }
-.content2 .part17{
+
+.content2 .part17 {
     height: 3.93rem;
     background: url("../img/page2/M-02_20.png") no-repeat;
     background-size: 100% 100%;
 }
-.content2 .part18{
+
+.content2 .part18 {
     height: 4.01rem;
     background: url("../img/page2/M-02_21.png") no-repeat;
     background-size: 100% 100%;
 }
-.content2 .part19{
+
+.content2 .part19 {
     height: 2.2rem;
     background: url("../img/page2/M-02_22.png") no-repeat;
     background-size: 100% 100%;
 }
-.content2 .part20{
+
+.content2 .part20 {
     height: 2.6rem;
     background: url("../img/page2/M-02_23.png") no-repeat;
     background-size: 100% 100%;
 }
-.content2 .part21{
+
+.content2 .part21 {
     height: 2.2rem;
     background: url("../img/page2/M-02_24.png") no-repeat;
     background-size: 100% 100%;
 }
-.content2 .part22{
+
+.content2 .part22 {
     height: 2.4rem;
     background: url("../img/page2/M-02_25.png") no-repeat;
     background-size: 100% 100%;
 }
-.content2 .part23{
+
+.content2 .part23 {
     height: 4.01rem;
     background: url("../img/page2/M-02_26.png") no-repeat;
     background-size: 100% 100%;
 }
-.content2 .part24{
+
+.content2 .part24 {
     height: 3.4rem;
     background: url("../img/page2/M-02_27.png") no-repeat;
     background-size: 100% 100%;
 }
-.content2 .part25{
+
+.content2 .part25 {
     height: 6.86rem;
     background: url("../img/page2/M-02_28.png") no-repeat;
     background-size: 100% 100%;
 }
-.content2 .part26{
+
+.content2 .part26 {
     height: 1.32rem;
     background: url("../img/page2/M-02_29.png") no-repeat;
     background-size: 100% 100%;
 }
-.content2 .part27{
+
+.content2 .part27 {
     height: 1.32rem;
     background: url("../img/page2/M-02_30.png") no-repeat;
     background-size: 100% 100%;
 }
-.content2 .part28{
+
+.content2 .part28 {
     height: 1.37rem;
     background: url("../img/page2/M-02_31.png") no-repeat;
     background-size: 100% 100%;
 }
-.content2 .part29{
+
+.content2 .part29 {
     height: 1.32rem;
     background: url("../img/page2/M-02_32.png") no-repeat;
     background-size: 100% 100%;
 }
-.content2 .part30{
+
+.content2 .part30 {
     height: 1.32rem;
     background: url("../img/page2/M-02_33.png") no-repeat;
     background-size: 100% 100%;
 }
-.content2 .part31{
+
+.content2 .part31 {
     height: 1.32rem;
     background: url("../img/page2/M-02_34.png") no-repeat;
     background-size: 100% 100%;
 }
-.content2 .part32{
+
+.content2 .part32 {
     height: 2.99rem;
     background: url("../img/page2/M-02_35.png") no-repeat;
     background-size: 100% 100%;
 }
-.content2 .part33{
-     height: 41.91rem;
-     background: url("../img/page2/M-02_36.png") no-repeat;
+
+.content2 .part33 {
+    height: 41.91rem;
+    background: url("../img/page2/M-02_36.png") no-repeat;
     background-size: 100% 100%;
- }
+}
+
 /********************cont3******************************/
-.content3 .part2{
+.content3 .part2 {
     height: 9.21rem;
     background: url("../img/page3/page3_02.png") no-repeat;
     background-size: 100% 100%;
 }
-.content3 .part3{
+
+.content3 .part3 {
     height: 14.2rem;
     background: url("../img/page3/page3_03.png") no-repeat;
     background-size: 100% 100%;
 }
-.content3 .part4{
+
+.content3 .part4 {
     height: 31.51rem;
     background: url("../img/page3/page3_04.png") no-repeat;
     background-size: 100% 100%;
 }
+
 /********************cont4******************************/
-.content4{
+.content4 {
     background-color: #704781;
 }
-.content4 .part2{
+
+.content4 .part2 {
     height: 24.52rem;
     background: url("../img/page4/page4_02.png") no-repeat;
     background-size: 100% 100%;
 }
-.content4 .part3{
+
+.content4 .part3 {
     height: 2.51rem;
     background: url("../img/page4/page4_03.png") no-repeat;
     background-size: 100% 100%;
 }
-.content4 .part4{
+
+.content4 .part4 {
     height: 21.1rem;
     background: url("../img/page4/page4_04.png") no-repeat;
     background-size: 100% 100%;
 }
-.content4 .part5{
+
+.content4 .part5 {
     height: 1.82rem;
     background: url("../img/page4/page4_05.png") no-repeat;
     background-size: 100% 100%;
 }
-.content4 .part6{
+
+.content4 .part6 {
     height: 21.41rem;
     background: url("../img/page4/page4_06.png") no-repeat;
     background-size: 100% 100%;
 }
-.content4 .part7{
+
+.content4 .part7 {
     height: 1.82rem;
     background: url("../img/page4/page4_07.png") no-repeat;
     background-size: 100% 100%;
 }
-.content4 .part8{
+
+.content4 .part8 {
     height: 21.41rem;
     background: url("../img/page4/page4_08.png") no-repeat;
     background-size: 100% 100%;
 }
-.content4 .part9{
+
+.content4 .part9 {
     height: 1.82rem;
     background: url("../img/page4/page4_09.png") no-repeat;
     background-size: 100% 100%;
 }
-.content4 .part10{
+
+.content4 .part10 {
     height: 77.19rem;
     background: url("../img/page4/page4_10.png") no-repeat;
     background-size: 100% 100%;
 }
-.content4 .part11{
+
+.content4 .part11 {
     height: 5.85rem;
     background: url("../img/page4/page4_11.png") no-repeat;
     background-size: 100% 100%;
 }
-.content4 .part12{
+
+.content4 .part12 {
     height: 4.54rem;
     background: url("../img/page4/page4_13.png") no-repeat;
     background-size: 100% 100%;
 }
-.content4 .part13{
+
+.content4 .part13 {
     height: 7.13rem;
     background: url("../img/page4/page4_14.png") no-repeat;
     background-size: 100% 100%;
 }
-.content4 .part14{
+
+.content4 .part14 {
     height: 4.39rem;
     background: url("../img/page4/page4_15.png") no-repeat;
     background-size: 100% 100%;
 }
-.content4 .part15{
+
+.content4 .part15 {
     height: 14.36rem;
     background: url("../img/page4/page4_16.png") no-repeat;
     background-size: 100% 100%;
 }
 
-
-.fade{
-    animation:fadein 1s linear 1;
+.fade {
+    animation: fadein 1s linear 1;
 }
-@keyframes fadein{
-    0%{opacity: 0;
+
+@keyframes fadein {
+    0% {
+        opacity: 0;
     }
-    100%{
+    100% {
         opacity: 1;
 
     }
 }
-.fade1{
+
+.fade1 {
 
 }

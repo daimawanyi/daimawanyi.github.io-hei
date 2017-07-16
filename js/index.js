@@ -12,17 +12,15 @@ var right = document.getElementById('right');
 
 
 var H=$(window).height();
-var c =document.documentElement.clientHeight
 
 bg.style.height = H + 'px';
 fff[0].style.opacity = 1;
-//content1.style = 'display: block;position:absolute;z-index:1;width:100%;top:' + H + 'px';
+//content1.style = 'top:' + H + 'px';
 
-$(content1).css('top',100+'px');
+$(content1).css('top',500+'px');
 alert(bg.style.height)
 alert('d'+$(content1).css('top'));
-console.log(H);
-console.log(c);
+
 
 
 function removeClass(curEle, strClass) {

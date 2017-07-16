@@ -11,11 +11,11 @@ var left = document.getElementById('left');
 var right = document.getElementById('right');
 
 
+
 fff[0].style.opacity = 1;
 bg.style.height = window.screen.availHeight + 'px';
 content1.style.top = bg.style.height
-
-
+content1.style.display='block'
 function removeClass(curEle, strClass) {
     var aryClass = strClass.replace(/(^ +)|( +$)/g, '').split(/\s+/g);
     for (var i = 0; i < aryClass.length; i++) {
@@ -465,10 +465,9 @@ function click() {
 
 
         if (content1.style.display == 'block') {
-            tmp = 1
             bg1.src = 'img/bg2.png';
             fff[2].style.opacity = 1;
-            if (fff[2].style.opacity = 1) {
+            if (fff[2].style.opacity == 1) {
                 fff[0].style.opacity = .5;
                 fff[4].style.opacity = .5;
                 fff[6].style.opacity = .5;
@@ -487,7 +486,7 @@ function click() {
             tmp = 2
             bg1.src = 'img/bg3.png';
             fff[4].style.opacity = 1;
-            if (fff[4].style.opacity = 1) {
+            if (fff[4].style.opacity == 1) {
                 fff[0].style.opacity = .5;
                 fff[2].style.opacity = .5;
                 fff[6].style.opacity = .5;
@@ -508,7 +507,7 @@ function click() {
             tmp = 3
             bg1.src = 'img/bg4.png';
             fff[6].style.opacity = 1;
-            if (fff[6].style.opacity = 1) {
+            if (fff[6].style.opacity == 1) {
                 fff[0].style.opacity = .5;
                 fff[2].style.opacity = .5;
                 fff[4].style.opacity = .5;
@@ -528,7 +527,7 @@ function click() {
             tmp = 4
             bg1.src = 'img/bg1.png'
             fff[0].style.opacity = 1;
-            if (fff[0].style.opacity = 1) {
+            if (fff[0].style.opacity == 1) {
                 fff[2].style.opacity = .5;
                 fff[4].style.opacity = .5;
                 fff[6].style.opacity = .5;
@@ -633,7 +632,7 @@ function click() {
 
             bg1.src = 'img/bg4.png';
             fff[6].style.opacity = 1;
-            if (fff[6].style.opacity = 1) {
+            if (fff[6].style.opacity == 1) {
                 fff[0].style.opacity = .5;
                 fff[2].style.opacity = .5;
                 fff[4].style.opacity = .5;
@@ -655,7 +654,7 @@ function click() {
             tmp = 2
             bg1.src = 'img/bg1.png'
             fff[0].style.opacity = 1;
-            if (fff[0].style.opacity = 1) {
+            if (fff[0].style.opacity == 1) {
                 fff[2].style.opacity = .5;
                 fff[4].style.opacity = .5;
                 fff[6].style.opacity = .5;
@@ -677,7 +676,7 @@ function click() {
             tmp = 3
             bg1.src = 'img/bg2.png';
             fff[2].style.opacity = 1;
-            if (fff[2].style.opacity = 1) {
+            if (fff[2].style.opacity == 1) {
                 fff[0].style.opacity = .5;
                 fff[4].style.opacity = .5;
                 fff[6].style.opacity = .5;
@@ -698,7 +697,7 @@ function click() {
             tmp = 4
             bg1.src = 'img/bg3.png';
             fff[4].style.opacity = 1;
-            if (fff[4].style.opacity = 1) {
+            if (fff[4].style.opacity == 1) {
                 fff[0].style.opacity = .5;
                 fff[2].style.opacity = .5;
                 fff[6].style.opacity = .5;

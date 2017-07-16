@@ -13,9 +13,7 @@ var right = document.getElementById('right');
 
 fff[0].style.opacity = 1;
 bg.style.height = window.screen.availHeight + 'px';
-content1.style.top =bg.style.height
-
-
+content1.style.top = bg.style.height
 
 
 function removeClass(curEle, strClass) {
@@ -734,16 +732,14 @@ function changeContent() {
         var c = document.body.clientHeight || document.documentElement.clientHeight
         var cs = c + s;
         if (s >= bg.clientHeight) {
-            header.style = 'background: rgba(128,128,128,0.5);'
+            header.style.background = 'rgba(128,128,128,0.5)';
         } else {
-            header.style = ''
+            header.style.backgroundColor = ''
         }
         var part11 = document.getElementsByClassName('part3')[0];
         if (offset(part11).top <= cs) {
             if (part11.className == 'part3')
-                part11.className += ' ' + 'fade';
-
-
+                part11.className += ' ' + 'fade1';
             var part11_1 = document.getElementsByClassName('part4')[0];
             part11_1.style.opacity = '0';
             if (offset(part11_1).top <= cs) {
@@ -916,44 +912,48 @@ function changeContent() {
         var part41 = document.getElementsByClassName('part3')[3];
         if (offset(part41).top <= cs && offset(part41).top != 0) {
             if (part41.className == 'part3')
-                part41.className += ' ' + 'fade'
+                part41.className += ' ' + 'fade1';
+            var part41_1 = document.getElementsByClassName('part4')[3];
+            part41_1.style.opacity = '0';
+            if (offset(part41_1).top <= cs) {
+                part41_1.style.opacity = '1'
+            }
         }
-        var part41_1 = document.getElementsByClassName('part4')[3];
-        part41_1.style.opacity = '0';
-        if (offset(part41_1).top <= cs) {
-            part41_1.style.opacity = '1'
-        }
+
 
         var part42 = document.getElementsByClassName('part5')[2];
         if (offset(part42).top <= cs && offset(part42).top != 0) {
             if (part42.className == 'part5')
-                part42.className += ' ' + 'fade'
+                part42.className += ' ' + 'fade1';
+            var part42_1 = document.getElementsByClassName('part6')[2];
+            part42_1.style.opacity = '0';
+            if (offset(part42_1).top <= cs) {
+                part42_1.style.opacity = '1'
+            }
         }
-        var part42_1 = document.getElementsByClassName('part6')[2];
-        part42_1.style.opacity = '0';
-        if (offset(part42_1).top <= cs) {
-            part42_1.style.opacity = '1'
-        }
+
         var part43 = document.getElementsByClassName('part7')[2];
         if (offset(part43).top <= cs && offset(part43).top != 0) {
             if (part43.className == 'part7')
-                part43.className += ' ' + 'fade'
+                part43.className += ' ' + 'fade1';
+            var part43_1 = document.getElementsByClassName('part8')[2];
+            part43_1.style.opacity = '0';
+            if (offset(part43_1).top <= cs) {
+                part43_1.style.opacity = '1'
+            }
         }
-        var part43_1 = document.getElementsByClassName('part8')[2];
-        part43_1.style.opacity = '0';
-        if (offset(part43_1).top <= cs) {
-            part43_1.style.opacity = '1'
-        }
+
         var part44 = document.getElementsByClassName('part9')[2];
         if (offset(part44).top <= cs && offset(part44).top != 0) {
             if (part44.className == 'part9')
-                part44.className += ' ' + 'fade'
+                part44.className += ' ' + 'fade1';
+            var part44_1 = document.getElementsByClassName('part10')[2];
+            part44_1.style.opacity = '0';
+            if (offset(part44_1).top <= cs) {
+                part44_1.style.opacity = '1'
+            }
         }
-        var part44_1 = document.getElementsByClassName('part10')[2];
-        part44_1.style.opacity = '0';
-        if (offset(part44_1).top <= cs) {
-            part44_1.style.opacity = '1'
-        }
+
         var part45 = document.getElementsByClassName('part11')[2];
         if (offset(part45).top <= cs && offset(part45).top != 0) {
             if (part45.className == 'part11')

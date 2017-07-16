@@ -691,6 +691,9 @@ a {
 .fade {
     animation: fadein 1s linear 1;
 }
+.fade1 {
+    animation: fadein 1.5s linear 1;
+}
 
 @keyframes fadein {
     0% {

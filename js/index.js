@@ -1097,9 +1097,9 @@ bg.addEventListener('touchmove',function(e){
     moveX = e.touches[0].pageX - mx;
 })
 bg.addEventListener('touchend',function(e){
-    if(moveX>20){
+    if(moveX>50){
         left.onclick()
-    }else if(moveX<-20){
+    }else if(moveX<-50){
         right.onclick()
 
 

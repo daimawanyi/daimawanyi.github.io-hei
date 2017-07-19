@@ -9,7 +9,7 @@ var content4 = document.getElementsByClassName('content4')[0];
 var header = document.getElementsByClassName('header')[0];
 var left = document.getElementById('left');
 var right = document.getElementById('right');
-
+var shadow=document.getElementsByClassName('shadow')[0];
 
 
 fff[0].style.opacity = 1;
@@ -43,8 +43,16 @@ function offset(curEle) {
 }
 
 function click() {
-    abo[0].onclick = function () {
+    abo[0].onclick=function(){
+        abo[1].onclick()
+    };
+    abo[1].onclick = function () {
         if (fff[2].style.opacity == 1) {
+            bg1.className='animated slideInLeft'
+            setTimeout(function(){
+                removeClass(bg1,'animated slideInLeft');
+            }, 1000);
+
             bg.className += ' ' + 'fir-act2-1';
             setTimeout(function () {
                 removeClass(bg, 'fir-act2-1')
@@ -67,6 +75,11 @@ function click() {
                 bg.className += ' ' + 'cont2-11'
             }, 1000);
         } else if (fff[4].style.opacity == 1) {
+            bg1.className='animated slideInLeft'
+            setTimeout(function(){
+                removeClass(bg1,'animated slideInLeft');
+            }, 1000);
+
             bg.className += ' ' + 'fir-act3-1';
             setTimeout(function () {
                 removeClass(bg, 'fir-act3-1');
@@ -88,6 +101,11 @@ function click() {
                 bg.className += ' ' + 'cont3-11'
             }, 1000);
         } else if (fff[6].style.opacity == 1) {
+            bg1.className='animated slideInLeft'
+            setTimeout(function(){
+                removeClass(bg1,'animated slideInLeft');
+            }, 1000);
+
             bg.className += ' ' + 'fir-act4-1';
             setTimeout(function () {
                 removeClass(bg, 'fir-act4-1');
@@ -126,8 +144,13 @@ function click() {
         content1.style.width = '100%';
         content1.style.top = window.screen.availHeight + 'px';
     };
-    abo[1].onclick = function () {
+    abo[2].onclick = function () {
         if (fff[0].style.opacity == 1) {
+            bg1.className='animated slideInRight'
+            setTimeout(function(){
+                removeClass(bg1,'animated slideInRight');
+            }, 1000);
+
             bg.className += ' ' + 'fir-act1-2';
             setTimeout(function () {
                 removeClass(bg, 'fir-act1-2');
@@ -148,6 +171,11 @@ function click() {
                 bg.className += ' ' + 'cont1-21'
             }, 1000);
         } else if (fff[4].style.opacity == 1) {
+            bg1.className='animated slideInLeft'
+            setTimeout(function(){
+                removeClass(bg1,'animated slideInLeft');
+            }, 1000);
+
             bg.className += ' ' + 'fir-act3-2';
             setTimeout(function () {
                 removeClass(bg, 'fir-act3-2');
@@ -169,6 +197,11 @@ function click() {
                 bg.className += ' ' + 'cont3-21'
             }, 1000);
         } else if (fff[6].style.opacity == 1) {
+            bg1.className='animated slideInLeft'
+            setTimeout(function(){
+                removeClass(bg1,'animated slideInLeft');
+            }, 1000);
+
             bg.className += ' ' + 'fir-act4-2';
             setTimeout(function () {
                 removeClass(bg, 'fir-act4-2');
@@ -208,8 +241,13 @@ function click() {
 
 
     };
-    abo[2].onclick = function () {
+    abo[3].onclick = function () {
         if (fff[0].style.opacity == 1) {
+            bg1.className='animated slideInRight'
+            setTimeout(function(){
+                removeClass(bg1,'animated slideInRight');
+            }, 1000);
+
             bg.className += ' ' + 'fir-act1-3';
             setTimeout(function () {
                 removeClass(bg, 'fir-act1-3');
@@ -231,6 +269,11 @@ function click() {
                 bg.className += ' ' + 'cont1-31'
             }, 1000);
         } else if (fff[2].style.opacity == 1) {
+            bg1.className='animated slideInRight'
+            setTimeout(function(){
+                removeClass(bg1,'animated slideInRight');
+            }, 1000);
+
             bg.className += ' ' + 'fir-act2-3';
             setTimeout(function () {
                 removeClass(bg, 'fir-act2-3');
@@ -251,6 +294,11 @@ function click() {
                 bg.className += ' ' + 'cont2-31'
             }, 1000);
         } else if (fff[6].style.opacity == 1) {
+            bg1.className='animated slideInLeft'
+            setTimeout(function(){
+                removeClass(bg1,'animated slideInLeft');
+            }, 1000);
+
             bg.className += ' ' + 'fir-act4-3';
             setTimeout(function () {
                 removeClass(bg, 'fir-act2-3')
@@ -290,8 +338,13 @@ function click() {
 
 
     };
-    abo[3].onclick = function () {
+    abo[4].onclick = function () {
         if (fff[0].style.opacity == 1) {
+            bg1.className='animated slideInRight'
+            setTimeout(function(){
+                removeClass(bg1,'animated slideInRight');
+            }, 1000);
+
             bg.className += ' ' + 'fir-act1-4';
             setTimeout(function () {
                 removeClass(bg, 'fir-act1-4');
@@ -314,6 +367,11 @@ function click() {
                 bg.className += ' ' + 'cont1-41'
             }, 1000);
         } else if (fff[2].style.opacity == 1) {
+            bg1.className='animated slideInRight'
+            setTimeout(function(){
+                removeClass(bg1,'animated slideInRight');
+            }, 1000);
+
             bg.className += ' ' + 'fir-act2-4';
             setTimeout(function () {
                 removeClass(bg, 'fir-act2-4')
@@ -335,6 +393,11 @@ function click() {
                 bg.className += ' ' + 'cont2-41'
             }, 1000);
         } else if (fff[4].style.opacity == 1) {
+            bg1.className='animated slideInRight'
+            setTimeout(function(){
+                removeClass(bg1,'animated slideInRight');
+            }, 1000);
+
             bg.className += ' ' + 'fir-act3-4';
             setTimeout(function () {
                 removeClass(bg, 'fir-act3-4');
@@ -376,6 +439,11 @@ function click() {
 
     right.onclick = function () {
         if (fff[0].style.opacity == 1) {
+            bg1.className='animated slideInRight'
+            setTimeout(function(){
+                removeClass(bg1,'animated slideInRight');
+            }, 1000);
+
             bg.className += ' ' + 'fir-act1-2';
             setTimeout(function () {
                 removeClass(bg, 'fir-act1-2');
@@ -405,6 +473,11 @@ function click() {
                 bg.className += ' ' + 'cont1-21'
             }, 1000);
         } else if (fff[2].style.opacity == 1) {
+            bg1.className='animated slideInRight'
+            setTimeout(function(){
+                removeClass(bg1,'animated slideInRight');
+            }, 1000);
+
             bg.className += ' ' + 'fir-act2-3';
             setTimeout(function () {
                 removeClass(bg, 'fir-act2-3');
@@ -424,6 +497,11 @@ function click() {
                 bg.className += ' ' + 'cont2-31'
             }, 1000);
         } else if (fff[4].style.opacity == 1) {
+            bg1.className='animated slideInRight'
+            setTimeout(function(){
+                removeClass(bg1,'animated slideInRight');
+            }, 1000);
+
             bg.className += ' ' + 'fir-act3-4';
             setTimeout(function () {
                 removeClass(bg, 'fir-act3-4');
@@ -443,6 +521,11 @@ function click() {
                 bg.className += ' ' + 'cont3-41'
             }, 1000);
         } else if (fff[6].style.opacity == 1) {
+            bg1.className='animated slideInLeft'
+            setTimeout(function(){
+                removeClass(bg1,'animated slideInLeft');
+            }, 1000);
+
             bg.className += ' ' + 'fir-act4-1';
             setTimeout(function () {
                 removeClass(bg, 'fir-act4-1');
@@ -549,6 +632,11 @@ function click() {
     }
     left.onclick = function () {
         if (fff[0].style.opacity == 1) {
+            bg1.className='animated slideInRight'
+            setTimeout(function(){
+                removeClass(bg1,'animated slideInRight');
+            }, 1000);
+
             bg.className += ' ' + 'fir-act1-4';
             setTimeout(function () {
                 removeClass(bg, 'fir-act1-4');
@@ -568,6 +656,11 @@ function click() {
                 bg.className += ' ' + 'cont1-41'
             }, 1000);
         } else if (fff[2].style.opacity == 1) {
+            bg1.className='animated slideInLeft'
+            setTimeout(function(){
+                removeClass(bg1,'animated slideInLeft');
+            }, 1000);
+
             bg.className += ' ' + 'fir-act2-1';
             setTimeout(function () {
                 removeClass(bg, 'fir-act2-1');
@@ -587,6 +680,11 @@ function click() {
                 bg.className += ' ' + 'cont2-11'
             }, 1000);
         } else if (fff[4].style.opacity == 1) {
+            bg1.className='animated slideInLeft'
+            setTimeout(function(){
+                removeClass(bg1,'animated slideInLeft');
+            }, 1000);
+
             bg.className += ' ' + 'fir-act3-2';
             setTimeout(function () {
                 removeClass(bg, 'fir-act3-2');
@@ -606,6 +704,11 @@ function click() {
                 bg.className += ' ' + 'cont3-21'
             }, 1000);
         } else if (fff[6].style.opacity == 1) {
+            bg1.className='animated slideInLeft'
+            setTimeout(function(){
+                removeClass(bg1,'animated slideInLeft');
+            }, 1000);
+
             bg.className += ' ' + 'fir-act4-3';
             setTimeout(function () {
                 removeClass(bg, 'fir-act4-3');
@@ -730,11 +833,13 @@ function changeContent() {
         var s = document.body.scrollTop || document.documentElement.scrollTop
         var c = document.body.clientHeight || document.documentElement.clientHeight
         var cs = c + s;
-        if (s >= bg.clientHeight) {
-            header.style.background = 'rgba(128,128,128,0.5)';
+        /*if (s >= bg.clientHeight) {
+            shadow.style.transition='all 1.5s linear';
+            shadow.style.opacity=1
         } else {
-            header.style.backgroundColor = ''
-        }
+            shadow.style.transition='all 1.5s linear';
+            shadow.style.opacity='0';
+        }*/
         var part11 = document.getElementsByClassName('part3')[0];
         if (offset(part11).top <= cs) {
             if (part11.className == 'part3')
@@ -984,6 +1089,21 @@ changeContent();
 
 
 
+var mx=0;
+bg.addEventListener('touchstart',function(e){
+    mx = e.touches[0].pageX;
+})
+bg.addEventListener('touchmove',function(e){
+    moveX = e.touches[0].pageX - mx;
+})
+bg.addEventListener('touchend',function(e){
+    if(moveX>20){
+        left.onclick()
+    }else if(moveX<-20){
+        right.onclick()
 
+
+    }
+})
 
 

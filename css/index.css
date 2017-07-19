@@ -19,7 +19,7 @@ a {
     height: 1.11rem;
 }
 
-.header img {
+.header .logo{
     width: .7rem;
     height: .7rem;
     display: block;
@@ -63,10 +63,18 @@ a {
 .header ul li a {
     color: #FFFFFF;
 }
+.header .shadow{
+    z-index: -1;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 1.11rem;
+    width: 100%;
+}
 
 .first-screen {
-    background: url("../img/bg-1.png") no-repeat;
-    background-size: 200% 110%;
+    background: url("../img/BG-01.gif") no-repeat;
+    background-size: 200% 100%;
     position: fixed;
     z-index: -1;
     width: 100%;
@@ -711,8 +719,4 @@ a {
         opacity: 1;
 
     }
-}
-
-.fade1 {
-
 }

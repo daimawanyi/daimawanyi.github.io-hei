@@ -882,82 +882,82 @@ function changeContent() {
 
         }
 
-        var dhl=document.getElementsByClassName('dhl')[0];
+        var dhl = document.getElementsByClassName('dhl')[0];
         if (offset(dhl).top <= cs) {
             if (dhl.className == 'dhl')
                 dhl.className += ' ' + 'dash';
         }
-        var d20121=document.getElementsByClassName('d20121')[0];
+        var d20121 = document.getElementsByClassName('d20121')[0];
         if (offset(d20121).top <= cs) {
             if (d20121.className == 'd20121')
                 d20121.className += ' ' + 'fade10';
         }
-        var d20122=document.getElementsByClassName('d20122')[0];
+        var d20122 = document.getElementsByClassName('d20122')[0];
         if (offset(d20122).top <= cs) {
             if (d20122.className == 'd20122')
                 d20122.className += ' ' + 'fade04';
         }
-        var d20123=document.getElementsByClassName('d20123')[0];
+        var d20123 = document.getElementsByClassName('d20123')[0];
         if (offset(d20123).top <= cs) {
             if (d20123.className == 'd20123')
                 d20123.className += ' ' + 'fade07';
         }
-        var d20131=document.getElementsByClassName('d20131')[0];
+        var d20131 = document.getElementsByClassName('d20131')[0];
         if (offset(d20131).top <= cs) {
             if (d20131.className == 'd20131')
                 d20131.className += ' ' + 'fade07';
         }
-        var d20132=document.getElementsByClassName('d20132')[0];
+        var d20132 = document.getElementsByClassName('d20132')[0];
         if (offset(d20132).top <= cs) {
             if (d20132.className == 'd20132')
                 d20132.className += ' ' + 'fade04';
         }
-        var d20133=document.getElementsByClassName('d20133')[0];
+        var d20133 = document.getElementsByClassName('d20133')[0];
         if (offset(d20133).top <= cs) {
             if (d20133.className == 'd20133')
                 d20133.className += ' ' + 'fade10';
         }
-        var d20141=document.getElementsByClassName('d20141')[0];
+        var d20141 = document.getElementsByClassName('d20141')[0];
         if (offset(d20141).top <= cs) {
             if (d20141.className == 'd20141')
                 d20141.className += ' ' + 'fade10';
         }
-        var d20142=document.getElementsByClassName('d20142')[0];
+        var d20142 = document.getElementsByClassName('d20142')[0];
         if (offset(d20142).top <= cs) {
             if (d20142.className == 'd20142')
                 d20142.className += ' ' + 'fade04';
         }
-        var d20143=document.getElementsByClassName('d20143')[0];
+        var d20143 = document.getElementsByClassName('d20143')[0];
         if (offset(d20143).top <= cs) {
             if (d20143.className == 'd20143')
                 d20143.className += ' ' + 'fade07';
         }
-        var d20151=document.getElementsByClassName('d20151')[0];
+        var d20151 = document.getElementsByClassName('d20151')[0];
         if (offset(d20151).top <= cs) {
             if (d20151.className == 'd20151')
                 d20151.className += ' ' + 'fade10';
         }
-        var d20152=document.getElementsByClassName('d20152')[0];
+        var d20152 = document.getElementsByClassName('d20152')[0];
         if (offset(d20152).top <= cs) {
             if (d20152.className == 'd20152')
                 d20152.className += ' ' + 'fade04';
         }
-        var d20153=document.getElementsByClassName('d20153')[0];
+        var d20153 = document.getElementsByClassName('d20153')[0];
         if (offset(d20153).top <= cs) {
             if (d20153.className == 'd20153')
                 d20153.className += ' ' + 'fade07';
         }
-        var d20161=document.getElementsByClassName('d20161')[0];
+        var d20161 = document.getElementsByClassName('d20161')[0];
         if (offset(d20161).top <= cs) {
             if (d20161.className == 'd20161')
                 d20161.className += ' ' + 'fade07';
         }
-        var d20162=document.getElementsByClassName('d20162')[0];
+        var d20162 = document.getElementsByClassName('d20162')[0];
         if (offset(d20162).top <= cs) {
             if (d20162.className == 'd20162')
                 d20162.className += ' ' + 'fade04';
         }
-        var d20163=document.getElementsByClassName('d20163')[0];
+        var d20163 = document.getElementsByClassName('d20163')[0];
         if (offset(d20163).top <= cs) {
             if (d20163.className == 'd20163')
                 d20163.className += ' ' + 'fade10';
@@ -996,97 +996,97 @@ function changeContent() {
         var part21 = document.getElementsByClassName('part3')[1];
         if (offset(part21).top <= cs && offset(part21).top != 0) {
             if (part21.className == 'part3')
-                part21.className += ' ' +'animated'+ ' ' +'fadeInUp';
+                part21.className += ' ' + 'animated' + ' ' + 'fadeInUp';
         }
         var part22 = document.getElementsByClassName('part4')[1];
         if (offset(part22).top <= cs && offset(part22).top != 0) {
             if (part22.className == 'part4')
-                part22.className += ' ' + 'animated'+ ' ' +'fadeInUp';
+                part22.className += ' ' + 'animated' + ' ' + 'fadeInUp';
         }
         var part23 = document.getElementsByClassName('part5')[1];
         if (offset(part23).top <= cs && offset(part23).top != 0) {
             if (part23.className == 'part5')
-                part23.className += ' ' + 'animated'+ ' ' +'fadeInUp';
+                part23.className += ' ' + 'animated' + ' ' + 'fadeInUp';
         }
         var part24 = document.getElementsByClassName('part6')[1];
         if (offset(part24).top <= cs && offset(part24).top != 0) {
             if (part24.className == 'part6')
-                part24.className += ' ' + 'animated'+ ' ' +'fadeInUp';
+                part24.className += ' ' + 'animated' + ' ' + 'fadeInUp';
         }
         var part25 = document.getElementsByClassName('part7')[1];
         if (offset(part25).top <= cs && offset(part25).top != 0) {
             if (part25.className == 'part7')
-                part25.className += ' ' +'animated'+ ' ' + 'fadeInUp';
+                part25.className += ' ' + 'animated' + ' ' + 'fadeInUp';
         }
         var part26 = document.getElementsByClassName('part8')[1];
         if (offset(part26).top <= cs && offset(part26).top != 0) {
             if (part26.className == 'part8')
-                part26.className += ' ' +'animated'+ ' ' + 'fadeInUp';
+                part26.className += ' ' + 'animated' + ' ' + 'fadeInUp';
         }
         var part27 = document.getElementsByClassName('part10')[1];
         if (offset(part27).top <= cs && offset(part27).top != 0) {
             if (part27.className == 'part10')
-                part27.className += ' ' +'animated'+ ' ' + 'fadeInLeft';
+                part27.className += ' ' + 'animated' + ' ' + 'fadeInLeft';
         }
         var part28 = document.getElementsByClassName('part11')[1];
         if (offset(part28).top <= cs && offset(part28).top != 0) {
             if (part28.className == 'part11')
-                part28.className += ' ' +'animated'+ ' ' + 'fadeInRight';
+                part28.className += ' ' + 'animated' + ' ' + 'fadeInRight';
         }
         var part29 = document.getElementsByClassName('part12')[1];
         if (offset(part29).top <= cs && offset(part29).top != 0) {
             if (part29.className == 'part12')
-                part29.className += ' ' +'animated'+ ' ' + 'fadeInLeft';
+                part29.className += ' ' + 'animated' + ' ' + 'fadeInLeft';
         }
         var part310 = document.getElementsByClassName('part13')[0];
         if (offset(part310).top <= cs && offset(part310).top != 0) {
             if (part310.className == 'part13')
-                part310.className += ' ' +'animated'+ ' ' + 'fadeInRight';
+                part310.className += ' ' + 'animated' + ' ' + 'fadeInRight';
         }
         var part311 = document.getElementsByClassName('part15')[0];
         if (offset(part311).top <= cs && offset(part311).top != 0) {
             if (part311.className == 'part15')
-                part311.className += ' ' +'animated'+ ' ' + 'fadeInRight';
+                part311.className += ' ' + 'animated' + ' ' + 'fadeInRight';
         }
         var part312 = document.getElementsByClassName('part16')[0];
         if (offset(part312).top <= cs && offset(part312).top != 0) {
             if (part312.className == 'part16')
-                part312.className += ' ' +'animated'+ ' ' + 'fadeInLeft';
+                part312.className += ' ' + 'animated' + ' ' + 'fadeInLeft';
         }
         var part313 = document.getElementsByClassName('part17')[0];
         if (offset(part313).top <= cs && offset(part313).top != 0) {
             if (part313.className == 'part17')
-                part313.className += ' ' +'animated'+ ' ' + 'fadeInRight';
+                part313.className += ' ' + 'animated' + ' ' + 'fadeInRight';
         }
         var part314 = document.getElementsByClassName('part19')[0];
         if (offset(part314).top <= cs && offset(part314).top != 0) {
             if (part314.className == 'part19')
-                part314.className += ' ' +'animated'+ ' ' + 'fadeInLeft';
+                part314.className += ' ' + 'animated' + ' ' + 'fadeInLeft';
         }
         var part315 = document.getElementsByClassName('part20')[0];
         if (offset(part315).top <= cs && offset(part315).top != 0) {
             if (part315.className == 'part20')
-                part315.className += ' ' +'animated'+ ' ' + 'fadeInRight';
+                part315.className += ' ' + 'animated' + ' ' + 'fadeInRight';
         }
         var part316 = document.getElementsByClassName('part21')[0];
         if (offset(part316).top <= cs && offset(part316).top != 0) {
             if (part316.className == 'part21')
-                part316.className += ' ' +'animated'+ ' ' + 'fadeInLeft';
+                part316.className += ' ' + 'animated' + ' ' + 'fadeInLeft';
         }
         var part317 = document.getElementsByClassName('part22')[0];
         if (offset(part317).top <= cs && offset(part317).top != 0) {
             if (part317.className == 'part22')
-                part317.className += ' ' +'animated'+ ' ' + 'fadeInRight';
+                part317.className += ' ' + 'animated' + ' ' + 'fadeInRight';
         }
         var part318 = document.getElementsByClassName('part24')[0];
         if (offset(part318).top <= cs && offset(part318).top != 0) {
             if (part318.className == 'part24')
-                part318.className += ' ' +'animated'+ ' ' + 'fadeInRight';
+                part318.className += ' ' + 'animated' + ' ' + 'fadeInRight';
         }
         var part319 = document.getElementsByClassName('part25')[0];
         if (offset(part319).top <= cs && offset(part319).top != 0) {
             if (part319.className == 'part25')
-                part319.className += ' ' +'animated'+ ' ' + 'fadeInLeft';
+                part319.className += ' ' + 'animated' + ' ' + 'fadeInLeft';
         }
         var part320 = document.getElementsByClassName('part26')[0];
         if (offset(part320).top <= cs && offset(part320).top != 0) {
@@ -1123,86 +1123,131 @@ function changeContent() {
             if (part326.className == 'part32')
                 part326.className += ' ' + 'fade'
         }
-        var applicationSystemBash=document.getElementsByClassName('applicationSystemBash')[0];
+        var applicationSystemBash = document.getElementsByClassName('applicationSystemBash')[0];
         if (offset(applicationSystemBash).top <= cs && offset(applicationSystemBash).top != 0) {
             if (applicationSystemBash.className == 'applicationSystemBash')
                 applicationSystemBash.className += ' ' + 'dash2';
         }
-        var applicationSystem11=document.getElementsByClassName('applicationSystem11')[0];
+        var applicationSystem11 = document.getElementsByClassName('applicationSystem11')[0];
         if (offset(applicationSystem11).top <= cs && offset(applicationSystem11).top != 0) {
             if (applicationSystem11.className == 'applicationSystem11')
                 applicationSystem11.className += ' ' + 'fade04';
         }
-        var applicationSystem12=document.getElementsByClassName('applicationSystem12')[0];
+        var applicationSystem12 = document.getElementsByClassName('applicationSystem12')[0];
         if (offset(applicationSystem12).top <= cs && offset(applicationSystem12).top != 0) {
             if (applicationSystem12.className == 'applicationSystem12')
                 applicationSystem12.className += ' ' + 'fade10';
         }
-        var applicationSystem21=document.getElementsByClassName('applicationSystem21')[0];
+        var applicationSystem21 = document.getElementsByClassName('applicationSystem21')[0];
         if (offset(applicationSystem21).top <= cs && offset(applicationSystem21).top != 0) {
             if (applicationSystem21.className == 'applicationSystem21')
                 applicationSystem21.className += ' ' + 'fade04';
         }
-        var applicationSystem22=document.getElementsByClassName('applicationSystem22')[0];
+        var applicationSystem22 = document.getElementsByClassName('applicationSystem22')[0];
         if (offset(applicationSystem22).top <= cs && offset(applicationSystem22).top != 0) {
             if (applicationSystem22.className == 'applicationSystem22')
                 applicationSystem22.className += ' ' + 'fade10';
         }
-        var applicationSystem31=document.getElementsByClassName('applicationSystem31')[0];
+        var applicationSystem31 = document.getElementsByClassName('applicationSystem31')[0];
         if (offset(applicationSystem31).top <= cs && offset(applicationSystem31).top != 0) {
             if (applicationSystem31.className == 'applicationSystem31')
                 applicationSystem31.className += ' ' + 'fade04';
         }
-        var applicationSystem32=document.getElementsByClassName('applicationSystem32')[0];
+        var applicationSystem32 = document.getElementsByClassName('applicationSystem32')[0];
         if (offset(applicationSystem32).top <= cs && offset(applicationSystem32).top != 0) {
             if (applicationSystem32.className == 'applicationSystem32')
                 applicationSystem32.className += ' ' + 'fade10';
         }
-        var applicationSystem41=document.getElementsByClassName('applicationSystem41')[0];
+        var applicationSystem41 = document.getElementsByClassName('applicationSystem41')[0];
         if (offset(applicationSystem41).top <= cs && offset(applicationSystem41).top != 0) {
             if (applicationSystem41.className == 'applicationSystem41')
                 applicationSystem41.className += ' ' + 'fade04';
         }
-        var applicationSystem42=document.getElementsByClassName('applicationSystem42')[0];
+        var applicationSystem42 = document.getElementsByClassName('applicationSystem42')[0];
         if (offset(applicationSystem42).top <= cs && offset(applicationSystem42).top != 0) {
             if (applicationSystem42.className == 'applicationSystem42')
                 applicationSystem42.className += ' ' + 'fade10';
         }
-        var applicationSystem51=document.getElementsByClassName('applicationSystem51')[0];
+        var applicationSystem51 = document.getElementsByClassName('applicationSystem51')[0];
         if (offset(applicationSystem51).top <= cs && offset(applicationSystem51).top != 0) {
             if (applicationSystem51.className == 'applicationSystem51')
                 applicationSystem51.className += ' ' + 'fade04';
         }
-        var applicationSystem52=document.getElementsByClassName('applicationSystem52')[0];
+        var applicationSystem52 = document.getElementsByClassName('applicationSystem52')[0];
         if (offset(applicationSystem52).top <= cs && offset(applicationSystem52).top != 0) {
             if (applicationSystem52.className == 'applicationSystem52')
                 applicationSystem52.className += ' ' + 'fade10';
         }
-        var applicationSystem61=document.getElementsByClassName('applicationSystem61')[0];
+        var applicationSystem61 = document.getElementsByClassName('applicationSystem61')[0];
         if (offset(applicationSystem61).top <= cs && offset(applicationSystem61).top != 0) {
             if (applicationSystem61.className == 'applicationSystem61')
                 applicationSystem61.className += ' ' + 'fade04';
         }
-        var applicationSystem62=document.getElementsByClassName('applicationSystem62')[0];
+        var applicationSystem62 = document.getElementsByClassName('applicationSystem62')[0];
         if (offset(applicationSystem62).top <= cs && offset(applicationSystem62).top != 0) {
             if (applicationSystem62.className == 'applicationSystem62')
                 applicationSystem62.className += ' ' + 'fade10';
         }
-        var applicationSystem71=document.getElementsByClassName('applicationSystem71')[0];
+        var applicationSystem71 = document.getElementsByClassName('applicationSystem71')[0];
         if (offset(applicationSystem71).top <= cs && offset(applicationSystem71).top != 0) {
             if (applicationSystem71.className == 'applicationSystem71')
                 applicationSystem71.className += ' ' + 'fade04';
         }
-        var applicationSystem72=document.getElementsByClassName('applicationSystem72')[0];
+        var applicationSystem72 = document.getElementsByClassName('applicationSystem72')[0];
         if (offset(applicationSystem72).top <= cs && offset(applicationSystem72).top != 0) {
             if (applicationSystem72.className == 'applicationSystem72')
                 applicationSystem72.className += ' ' + 'fade10';
+        }
+        var achievementBorder = document.getElementsByClassName('achievementBorder')[0];
+        if (offset(achievementBorder).top <= cs && offset(achievementBorder).top != 0) {
+            if (achievementBorder.className == 'achievementBorder')
+                achievementBorder.className += ' ' + 'fade';
+        }
+        var achievementR1 = document.getElementsByClassName('achievementR1')[0];
+        var achievementR2 = document.getElementsByClassName('achievementR2')[0];
+        if (offset(achievementR1).top <= cs && offset(achievementR1).top != 0) {
+            if (achievementR1.className == 'achievementR1'){
+                achievementR1.className += ' ' + 'fade';
+                achievementR2.className += ' ' + 'fade';
+            }
+        }
+        var achievementM1 = document.getElementsByClassName('achievementM1')[0];
+        var achievementM2 = document.getElementsByClassName('achievementM2')[0];
+        if (offset(achievementM1).top <= cs && offset(achievementM1).top != 0) {
+            if (achievementM1.className == 'achievementM1'){
+                achievementM1.className +=' ' + 'biger';
+                achievementM2.className +=' ' + 'biger';
+            }
+
+        }
+
+        var achievementBg = document.getElementsByClassName('achievementBg')[0];
+        if (offset(achievementBg).top <= cs && offset(achievementBg).top != 0) {
+            if (achievementBg.className == 'achievementBg')
+                achievementBg.className += ' ' + 'fade';
+        }
+        var achievementR3 = document.getElementsByClassName('achievementR3')[0];
+        var achievementR4 = document.getElementsByClassName('achievementR4')[0];
+        if (offset(achievementR3).top <= cs && offset(achievementR3).top != 0) {
+            if (achievementR3.className == 'achievementR3'){
+                achievementR3.className += ' ' + 'fade';
+                achievementR4.className += ' ' + 'fade';
+            }
+        }
+        var achievementM3 = document.getElementsByClassName('achievementM3')[0];
+        var achievementM4 = document.getElementsByClassName('achievementM4')[0];
+        if (offset(achievementM3).top <= cs && offset(achievementM3).top != 0) {
+            if (achievementM3.className == 'achievementM3'){
+                achievementM3.className +=' ' + 'biger';
+                achievementM4.className +=' ' + 'biger';
+            }
+
         }
 
         var part41 = document.getElementsByClassName('part3')[3];
         if (offset(part41).top <= cs && offset(part41).top != 0) {
             if (part41.className == 'part3')
-                part41.className +=  ' ' + 'animated'+ ' ' +'fadeInUp';
+                part41.className += ' ' + 'animated' + ' ' + 'fadeInUp';
             var part41_1 = document.getElementsByClassName('part4')[3];
             part41_1.style.opacity = '0';
             if (offset(part41_1).top <= cs) {
@@ -1214,7 +1259,7 @@ function changeContent() {
         var part42 = document.getElementsByClassName('part5')[2];
         if (offset(part42).top <= cs && offset(part42).top != 0) {
             if (part42.className == 'part5')
-                part42.className += ' ' + 'animated'+ ' ' +'fadeInUp';
+                part42.className += ' ' + 'animated' + ' ' + 'fadeInUp';
             var part42_1 = document.getElementsByClassName('part6')[2];
             part42_1.style.opacity = '0';
             if (offset(part42_1).top <= cs) {
@@ -1225,7 +1270,7 @@ function changeContent() {
         var part43 = document.getElementsByClassName('part7')[2];
         if (offset(part43).top <= cs && offset(part43).top != 0) {
             if (part43.className == 'part7')
-                part43.className +=  ' ' + 'animated'+ ' ' +'fadeInUp';
+                part43.className += ' ' + 'animated' + ' ' + 'fadeInUp';
             var part43_1 = document.getElementsByClassName('part8')[2];
             part43_1.style.opacity = '0';
             if (offset(part43_1).top <= cs) {
@@ -1236,7 +1281,7 @@ function changeContent() {
         var part44 = document.getElementsByClassName('part9')[2];
         if (offset(part44).top <= cs && offset(part44).top != 0) {
             if (part44.className == 'part9')
-                part44.className +=  ' ' + 'animated'+ ' ' +'fadeInUp';
+                part44.className += ' ' + 'animated' + ' ' + 'fadeInUp';
             var part44_1 = document.getElementsByClassName('part10')[2];
             part44_1.style.opacity = '0';
             if (offset(part44_1).top <= cs) {
@@ -1247,22 +1292,22 @@ function changeContent() {
         var part45 = document.getElementsByClassName('part11')[2];
         if (offset(part45).top <= cs && offset(part45).top != 0) {
             if (part45.className == 'part11')
-                part45.className +=  ' ' + 'animated'+ ' ' +'fadeInLeft';
+                part45.className += ' ' + 'animated' + ' ' + 'fadeInLeft';
         }
         var part46 = document.getElementsByClassName('part12')[2];
         if (offset(part46).top <= cs && offset(part46).top != 0) {
             if (part46.className == 'part12')
-                part46.className +=  ' ' + 'animated'+ ' ' +'fadeInRight';
+                part46.className += ' ' + 'animated' + ' ' + 'fadeInRight';
         }
         var part47 = document.getElementsByClassName('part13')[1];
         if (offset(part47).top <= cs && offset(part47).top != 0) {
             if (part47.className == 'part13')
-                part47.className +=  ' ' + 'animated'+ ' ' +'fadeInLeft';
+                part47.className += ' ' + 'animated' + ' ' + 'fadeInLeft';
         }
         var part48 = document.getElementsByClassName('part14')[1];
         if (offset(part48).top <= cs && offset(part48).top != 0) {
             if (part48.className == 'part14')
-                part48.className +=  ' ' + 'animated'+ ' ' +'fadeInRight';
+                part48.className += ' ' + 'animated' + ' ' + 'fadeInRight';
         }
 
     }

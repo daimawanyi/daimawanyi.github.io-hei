@@ -16,7 +16,8 @@ a {
     position: fixed;
     z-index: 2;
     width: 100%;
-    height: 1.11rem;
+    height: 1.26rem;
+
 }
 
 .header .logo{
@@ -68,7 +69,7 @@ a {
     position: fixed;
     top: 0;
     left: 0;
-    height: 1.11rem;
+    height: 1.26rem;
     width: 100%;
 }
 
@@ -344,6 +345,7 @@ a {
     height: 6.27rem;
     background: url("../img/patr1_04.png") no-repeat;
     background-size: 100% 100%;
+    opacity: 0;
 
 }
 
@@ -358,46 +360,222 @@ a {
     height: 2.58rem;
     background: url("../img/patr1_06.png") no-repeat;
     background-size: 100% 100%;
-
+    opacity: 0;
 }
 
-.content1 .part6 {
+/*.content1 .part6 {
     height: 3.6rem;
     background: url("../img/patr1_07.png") no-repeat;
     background-size: 100% 100%;
 
 }
-
 .content1 .part7 {
     height: 2rem;
     background: url("../img/patr1_08.png") no-repeat;
     background-size: 100% 100%;
 
 }
-
 .content1 .part8 {
     height: 2rem;
     background: url("../img/patr1_09.png") no-repeat;
     background-size: 100% 100%;
 }
-
 .content1 .part9 {
     height: 2.31rem;
     background: url("../img/patr1_10.png") no-repeat;
     background-size: 100% 100%;
 }
-
 .content1 .part10 {
     height: 2.9rem;
     background: url("../img/patr1_11.png") no-repeat;
     background-size: 100% 100%;
-}
+}*/
 
 .content1 .part11 {
     height: 42.5rem;
     background: url("../img/patr1_12.png") no-repeat;
     background-size: 100% 100%;
 }
+.content1 .developmenthistory{
+    height: 12.81rem;
+    background: url("../img/developmentHistory.png") no-repeat;
+    background-size: 100% 100%;
+}
+.content1 .developmenthistory .dht{
+    background: url("../img/developmentTitle.png") no-repeat;
+    background-size: 100% 100%;
+    width: 1.8rem;
+    height: .65rem;
+    position: absolute;
+    margin: .52rem 0 0 2.3rem;
+}
+.content1 .developmenthistory .dhl{
+    background: url("../img/dashed.png") no-repeat;
+    background-size: 100% 100%;
+    width: .02rem;
+    /*height: 8.47rem;*/
+    position: absolute;
+    margin:2.47rem 0 0 3.19rem;
+}
+.content1 .developmenthistory li{
+    display: block;
+}
+.content1 .developmenthistory .d2012 li:nth-of-type(1){
+    background: url("../img/2012t.png") no-repeat;
+    background-size: 100% 100%;
+    height: .86rem;
+    width: .63rem;
+    position: absolute;
+    margin: 2.15rem 0 0 2.11rem;
+}
+.content1 .developmenthistory .d2012 li:nth-of-type(2){
+    background: url("../img/dot.png") no-repeat;
+    background-size: 100% 100%;
+    height: .14rem;
+    width: .14rem;
+    position: absolute;
+    margin: 2.33rem 0 0 3.14rem;
+}
+.content1 .developmenthistory .d2012 li:nth-of-type(3){
+    background: url("../img/2012.png") no-repeat;
+    background-size: 100% 100%;
+    height: .84rem;
+    width: 1.61rem;
+    position: absolute;
+    margin: 2.15rem 0 0 3.6rem;
+}
+.content1 .developmenthistory .d2013 li:nth-of-type(1){
+    background: url("../img/2013.png") no-repeat;
+    background-size: 100% 100%;
+    height: .84rem;
+    width: 2.16rem;
+    position: absolute;
+    margin: 4.18rem 0 0 0.67rem;
+}
+.content1 .developmenthistory .d2013 li:nth-of-type(2){
+    background: url("../img/dot.png") no-repeat;
+    background-size: 100% 100%;
+    height: .14rem;
+    width: .14rem;
+    position: absolute;
+    margin: 4.33rem 0 0 3.14rem;
+}
+.content1 .developmenthistory .d2013 li:nth-of-type(3){
+    background: url("../img/2013t.png") no-repeat;
+    background-size: 100% 100%;
+    height: .88rem;
+    width: 1.17rem;
+    position: absolute;
+    margin: 4.15rem 0 0 3.6rem;
+}
+.content1 .developmenthistory .d2014 li:nth-of-type(1){
+    background: url("../img/2014t.png") no-repeat;
+    background-size: 100% 100%;
+    height: .88rem;
+    width:1.17rem;
+    position: absolute;
+    margin: 6.11rem 0 0 1.66rem;
+}
+.content1 .developmenthistory .d2014 li:nth-of-type(2){
+    background: url("../img/dot.png") no-repeat;
+    background-size: 100% 100%;
+    height: .14rem;
+    width: .14rem;
+    position: absolute;
+    margin: 6.33rem 0 0 3.14rem;
+}
+.content1 .developmenthistory .d2014 li:nth-of-type(3){
+    background: url("../img/2014.png") no-repeat;
+    background-size: 100% 100%;
+    height: .84rem;
+    width: 2.15rem;
+    position: absolute;
+    margin: 6.15rem 0 0 3.6rem;
+}
+.content1 .developmenthistory .d2015 li:nth-of-type(1){
+    background: url("../img/2015t.png") no-repeat;
+    background-size: 100% 100%;
+    height: .76rem;
+    width: 1.49rem;
+    position: absolute;
+    margin: 8.39rem 0 0 1.39rem;
+}
+.content1 .developmenthistory .d2015 li:nth-of-type(2){
+    background: url("../img/dot.png") no-repeat;
+    background-size: 100% 100%;
+    height: .14rem;
+    width: .14rem;
+    position: absolute;
+    margin: 8.33rem 0 0 3.14rem;
+}
+.content1 .developmenthistory .d2015 li:nth-of-type(3){
+    background: url("../img/2015.png") no-repeat;
+    background-size: 100% 100%;
+    height: 1.2rem;
+    width: 2.16rem;
+    position: absolute;
+    margin: 8.18rem 0 0 3.6rem;
+}
+.content1 .developmenthistory .d2016 li:nth-of-type(1){
+    background: url("../img/2016.png") no-repeat;
+    background-size: 100% 100%;
+    height: 1.2rem;
+    width: 2.17rem;
+    position: absolute;
+    margin: 10.76rem 0 0 0.67rem;
+}
+.content1 .developmenthistory .d2016 li:nth-of-type(2){
+    background: url("../img/dot.png") no-repeat;
+    background-size: 100% 100%;
+    height: .14rem;
+    width: .14rem;
+    position: absolute;
+    margin: 10.92rem 0 0 3.14rem;
+}
+.content1 .developmenthistory .d2016 li:nth-of-type(3){
+    background: url("../img/2016t.png") no-repeat;
+    background-size: 100% 100%;
+    height: 1.38rem;
+    width: 1.02rem;
+    position: absolute;
+    margin: 10.62rem 0 0 3.6rem;
+}
+.dash{
+    animation:dashed 5s linear;
+    animation-fill-mode: forwards;
+}
+@keyframes dashed {
+    0%{
+    height:0;
+}
+    25%{
+        height:2.1175rem ;
+    }
+    50%{
+        height:4.235rem ;
+    }
+    100%{
+        height:8.47rem ;
+    }
+}
+.developmenthistory li{
+    opacity: 0;
+}
+.fade04{
+    animation: fadein 4s linear .4s;
+    animation-fill-mode: forwards;
+
+}
+.fade07{
+    animation: fadein 4s linear .7s;
+    animation-fill-mode: forwards;
+
+}
+.fade10{
+    animation: fadein 4s linear 1s;
+    animation-fill-mode: forwards;
+}
+
 
 /********************cont2******************************/
 .content2 {
@@ -548,7 +726,7 @@ a {
     background-size: 100% 100%;
 }
 
-.content2 .part26 {
+/*.content2 .part26 {
     height: 1.32rem;
     background: url("../img/page2/M-02_29.png") no-repeat;
     background-size: 100% 100%;
@@ -588,14 +766,167 @@ a {
     height: 2.99rem;
     background: url("../img/page2/M-02_35.png") no-repeat;
     background-size: 100% 100%;
+}*/
+.content2 .applicationSystem{
+    background: url("../img/page2/applicationSystemBorder.png") no-repeat;
+    background-size: 100% 100%;
+    height: 10.96rem;
 }
-
+.content2 .applicationSystem li{
+    opacity: 0;
+}
+.content2 .applicationSystemBash{
+    background: url("../img/dashed.png") no-repeat;
+    background-size: 100% 100%;
+    height: 7.9rem;
+    width: .02rem;
+    position: absolute;
+    margin: .14rem 0 0 1.16rem;
+}
+.content2 .applicationSystem1 li:nth-of-type(1){
+    background: url("../img/dot.png") no-repeat;
+    background-size: 100% 100%;
+    height: .14rem;
+    width: .14rem;
+    position: absolute;
+    margin: .04rem 0 0 1.09rem;
+}
+.content2 .applicationSystem1 li:nth-of-type(2){
+    background: url("../img/page2/applicationSystem1.png") no-repeat;
+    background-size: 100% 100%;
+    height: .67rem;
+    width: 3.23rem;
+    position: absolute;
+    margin: 0 0 0 1.8rem;
+}
+.content2 .applicationSystem2 li:nth-of-type(1){
+    background: url("../img/dot.png") no-repeat;
+    background-size: 100% 100%;
+    height: .14rem;
+    width: .14rem;
+    position: absolute;
+    margin: 1.38rem 0 0 1.09rem;
+}
+.content2 .applicationSystem2 li:nth-of-type(2){
+    background: url("../img/page2/applicationSystem2.png") no-repeat;
+    background-size: 100% 100%;
+    height: .67rem;
+    width: 2.41rem;
+    position: absolute;
+    margin: 1.33rem 0 0 1.8rem;
+}
+.content2 .applicationSystem3 li:nth-of-type(1){
+    background: url("../img/dot.png") no-repeat;
+    background-size: 100% 100%;
+    height: .14rem;
+    width: .14rem;
+    position: absolute;
+    margin: 2.7rem 0 0 1.09rem;
+}
+.content2 .applicationSystem3 li:nth-of-type(2){
+    background: url("../img/page2/applicationSystem3.png") no-repeat;
+    background-size: 100% 100%;
+    height: .67rem;
+    width: 2.41rem;
+    position: absolute;
+    margin: 2.64rem 0 0 1.8rem;
+}
+.content2 .applicationSystem4 li:nth-of-type(1){
+    background: url("../img/dot.png") no-repeat;
+    background-size: 100% 100%;
+    height: .14rem;
+    width: .14rem;
+    position: absolute;
+    margin: 4.03rem 0 0 1.09rem;
+}
+.content2 .applicationSystem4 li:nth-of-type(2){
+    background: url("../img/page2/applicationSystem4.png") no-repeat;
+    background-size: 100% 100%;
+    height: .68rem;
+    width: 2.40rem;
+    position: absolute;
+    margin:4.01rem 0 0 1.8rem;
+}
+.content2 .applicationSystem5 li:nth-of-type(1){
+    background: url("../img/dot.png") no-repeat;
+    background-size: 100% 100%;
+    height: .14rem;
+    width: .14rem;
+    position: absolute;
+    margin:5.35rem 0 0 1.09rem;
+}
+.content2 .applicationSystem5 li:nth-of-type(2){
+    background: url("../img/page2/applicationSystem5.png") no-repeat;
+    background-size: 100% 100%;
+    height: .67rem;
+    width: 1.72rem;
+    position: absolute;
+    margin: 5.33rem 0 0 1.8rem;
+}
+.content2 .applicationSystem6 li:nth-of-type(1){
+    background: url("../img/dot.png") no-repeat;
+    background-size: 100% 100%;
+    height: .14rem;
+    width: .14rem;
+    position: absolute;
+    margin: 6.68rem 0 0 1.09rem;
+}
+.content2 .applicationSystem6 li:nth-of-type(2){
+    background: url("../img/page2/applicationSystem6.png") no-repeat;
+    background-size: 100% 100%;
+    height: .67rem;
+    width: 2.75rem;
+    position: absolute;
+    margin: 6.65rem 0 0 1.8rem;
+}
+.content2 .applicationSystem7 li:nth-of-type(1){
+    background: url("../img/dot.png") no-repeat;
+    background-size: 100% 100%;
+    height: .14rem;
+    width: .14rem;
+    position: absolute;
+    margin:8.02rem 0 0 1.09rem;
+}
+.content2 .applicationSystem7 li:nth-of-type(2){
+    background: url("../img/page2/applicationSystem7.png") no-repeat;
+    background-size: 100% 100%;
+    height: .67rem;
+    width: 2.41rem;
+    position: absolute;
+    margin: 7.98rem 0 0 1.8rem;
+}
 .content2 .part33 {
     height: 41.91rem;
     background: url("../img/page2/M-02_36.png") no-repeat;
     background-size: 100% 100%;
 }
-
+.dash2{
+    animation:dashed2 6s linear;
+    animation-fill-mode: forwards;
+}
+@keyframes dashed2 {
+    0%{
+        height:0;
+    }
+    17%{
+        height:1.32rem ;
+    }
+    34%{
+        height:2.64rem ;
+    }
+    51%{
+        height:3.96rem ;
+    }
+    68%{
+        height:5.28rem ;
+    }
+    85%{
+        height:6.6rem ;
+    }
+    100%{
+        height:7.9rem ;
+    }
+}
 /********************cont3******************************/
 .content3 .part2 {
     height: 9.21rem;
@@ -708,7 +1039,11 @@ a {
     animation: fadein 1s linear 1;
 }
 .fade1 {
-    animation: fadein 1.5s linear 1;
+    animation: fadein 5s linear 1;
+}
+.fade2 {
+    animation: fadeout 1.5s linear 1;
+    animation-fill-mode: forwards;
 }
 
 @keyframes fadein {
@@ -717,6 +1052,15 @@ a {
     }
     100% {
         opacity: 1;
+
+    }
+}
+@keyframes fadeout {
+    0% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
 
     }
 }

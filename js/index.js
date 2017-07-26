@@ -10,12 +10,15 @@ var header = document.getElementsByClassName('header')[0];
 var left = document.getElementById('left');
 var right = document.getElementById('right');
 var shadow = document.getElementsByClassName('shadow')[0];
-
-
+var vid = document.getElementsByClassName('vid')[0];
+var video = document.getElementsByClassName('video')[0];
+video.play();
+alert('1')
 fff[0].style.opacity = 1;
 bg.style.height = window.screen.availHeight + 'px';
-content1.style.top = bg.style.height
-content1.style.display = 'block'
+vid.style.height= window.screen.availHeight + 'px';
+content1.style.top = bg.style.height;
+content1.style.display = 'block';
 function removeClass(curEle, strClass) {
     var aryClass = strClass.replace(/(^ +)|( +$)/g, '').split(/\s+/g);
     for (var i = 0; i < aryClass.length; i++) {
@@ -53,26 +56,26 @@ function click() {
                 removeClass(bg1, 'animated slideInLeft');
             }, 1000);
 
-            bg.className += ' ' + 'fir-act2-1';
+            video.className += ' ' + 'fir-act2-1';
             setTimeout(function () {
-                removeClass(bg, 'fir-act2-1')
-                removeClass(bg, 'fir-act2-3')
-                removeClass(bg, 'fir-act4-3')
-                removeClass(bg, 'fir-act3-4')
+                removeClass(video, 'fir-act2-1')
+                removeClass(video, 'fir-act2-3')
+                removeClass(video, 'fir-act4-3')
+                removeClass(video, 'fir-act3-4')
 
-                removeClass(bg, 'cont1-21');
-                removeClass(bg, 'cont2-11');
-                removeClass(bg, 'cont1-31');
-                removeClass(bg, 'cont1-41');
-                removeClass(bg, 'cont2-31');
-                removeClass(bg, 'cont2-41');
-                removeClass(bg, 'cont3-11');
-                removeClass(bg, 'cont3-21');
-                removeClass(bg, 'cont3-41');
-                removeClass(bg, 'cont4-11');
-                removeClass(bg, 'cont4-21');
-                removeClass(bg, 'cont4-31');
-                bg.className += ' ' + 'cont2-11'
+                removeClass(video, 'cont1-21');
+                removeClass(video, 'cont2-11');
+                removeClass(video, 'cont1-31');
+                removeClass(video, 'cont1-41');
+                removeClass(video, 'cont2-31');
+                removeClass(video, 'cont2-41');
+                removeClass(video, 'cont3-11');
+                removeClass(video, 'cont3-21');
+                removeClass(video, 'cont3-41');
+                removeClass(video, 'cont4-11');
+                removeClass(video, 'cont4-21');
+                removeClass(video, 'cont4-31');
+                video.className += ' ' + 'cont2-11'
             }, 1000);
         } else if (fff[4].style.opacity == 1) {
             bg1.className = 'animated slideInLeft'
@@ -80,25 +83,25 @@ function click() {
                 removeClass(bg1, 'animated slideInLeft');
             }, 1000);
 
-            bg.className += ' ' + 'fir-act3-1';
+            video.className += ' ' + 'fir-act3-1';
             setTimeout(function () {
-                removeClass(bg, 'fir-act3-1');
-                removeClass(bg, 'fir-act2-3');
-                removeClass(bg, 'fir-act4-3');
-                removeClass(bg, 'fir-act3-4');
-                removeClass(bg, 'cont1-21');
-                removeClass(bg, 'cont2-11');
-                removeClass(bg, 'cont1-31');
-                removeClass(bg, 'cont1-41');
-                removeClass(bg, 'cont2-31');
-                removeClass(bg, 'cont2-41');
-                removeClass(bg, 'cont3-11');
-                removeClass(bg, 'cont3-21');
-                removeClass(bg, 'cont3-41');
-                removeClass(bg, 'cont4-11');
-                removeClass(bg, 'cont4-21');
-                removeClass(bg, 'cont4-31');
-                bg.className += ' ' + 'cont3-11'
+                removeClass(video, 'fir-act3-1');
+                removeClass(video, 'fir-act2-3');
+                removeClass(video, 'fir-act4-3');
+                removeClass(video, 'fir-act3-4');
+                removeClass(video, 'cont1-21');
+                removeClass(video, 'cont2-11');
+                removeClass(video, 'cont1-31');
+                removeClass(video, 'cont1-41');
+                removeClass(video, 'cont2-31');
+                removeClass(video, 'cont2-41');
+                removeClass(video, 'cont3-11');
+                removeClass(video, 'cont3-21');
+                removeClass(video, 'cont3-41');
+                removeClass(video, 'cont4-11');
+                removeClass(video, 'cont4-21');
+                removeClass(video, 'cont4-31');
+                video.className += ' ' + 'cont3-11'
             }, 1000);
         } else if (fff[6].style.opacity == 1) {
             bg1.className = 'animated slideInLeft'
@@ -106,24 +109,24 @@ function click() {
                 removeClass(bg1, 'animated slideInLeft');
             }, 1000);
 
-            bg.className += ' ' + 'fir-act4-1';
+            video.className += ' ' + 'fir-act4-1';
             setTimeout(function () {
-                removeClass(bg, 'fir-act4-1');
-                removeClass(bg, 'fir-act2-3')
-                removeClass(bg, 'fir-act4-3')
-                removeClass(bg, 'cont1-21');
-                removeClass(bg, 'cont2-11');
-                removeClass(bg, 'cont1-31');
-                removeClass(bg, 'cont1-41');
-                removeClass(bg, 'cont2-31');
-                removeClass(bg, 'cont2-41');
-                removeClass(bg, 'cont3-11');
-                removeClass(bg, 'cont3-21');
-                removeClass(bg, 'cont3-41');
-                removeClass(bg, 'cont4-11');
-                removeClass(bg, 'cont4-21');
-                removeClass(bg, 'cont4-31');
-                bg.className += ' ' + 'cont4-11'
+                removeClass(video, 'fir-act4-1');
+                removeClass(video, 'fir-act2-3')
+                removeClass(video, 'fir-act4-3')
+                removeClass(video, 'cont1-21');
+                removeClass(video, 'cont2-11');
+                removeClass(video, 'cont1-31');
+                removeClass(video, 'cont1-41');
+                removeClass(video, 'cont2-31');
+                removeClass(video, 'cont2-41');
+                removeClass(video, 'cont3-11');
+                removeClass(video, 'cont3-21');
+                removeClass(video, 'cont3-41');
+                removeClass(video, 'cont4-11');
+                removeClass(video, 'cont4-21');
+                removeClass(video, 'cont4-31');
+                video.className += ' ' + 'cont4-11'
             }, 1000);
         }
 
@@ -151,24 +154,24 @@ function click() {
                 removeClass(bg1, 'animated slideInRight');
             }, 1000);
 
-            bg.className += ' ' + 'fir-act1-2';
+            video.className += ' ' + 'fir-act1-2';
             setTimeout(function () {
-                removeClass(bg, 'fir-act1-2');
-                removeClass(bg, 'fir-act2-3')
-                removeClass(bg, 'fir-act4-3')
-                removeClass(bg, 'cont1-21');
-                removeClass(bg, 'cont2-11');
-                removeClass(bg, 'cont1-31');
-                removeClass(bg, 'cont1-41');
-                removeClass(bg, 'cont2-31');
-                removeClass(bg, 'cont2-41');
-                removeClass(bg, 'cont3-11');
-                removeClass(bg, 'cont3-21');
-                removeClass(bg, 'cont3-41');
-                removeClass(bg, 'cont4-11');
-                removeClass(bg, 'cont4-21');
-                removeClass(bg, 'cont4-31');
-                bg.className += ' ' + 'cont1-21'
+                removeClass(video, 'fir-act1-2');
+                removeClass(video, 'fir-act2-3')
+                removeClass(video, 'fir-act4-3')
+                removeClass(video, 'cont1-21');
+                removeClass(video, 'cont2-11');
+                removeClass(video, 'cont1-31');
+                removeClass(video, 'cont1-41');
+                removeClass(video, 'cont2-31');
+                removeClass(video, 'cont2-41');
+                removeClass(video, 'cont3-11');
+                removeClass(video, 'cont3-21');
+                removeClass(video, 'cont3-41');
+                removeClass(video, 'cont4-11');
+                removeClass(video, 'cont4-21');
+                removeClass(video, 'cont4-31');
+                video.className += ' ' + 'cont1-21'
             }, 1000);
         } else if (fff[4].style.opacity == 1) {
             bg1.className = 'animated slideInLeft'
@@ -176,25 +179,25 @@ function click() {
                 removeClass(bg1, 'animated slideInLeft');
             }, 1000);
 
-            bg.className += ' ' + 'fir-act3-2';
+            video.className += ' ' + 'fir-act3-2';
             setTimeout(function () {
-                removeClass(bg, 'fir-act3-2');
-                removeClass(bg, 'fir-act2-3')
-                removeClass(bg, 'fir-act4-3')
-                removeClass(bg, 'cont1-21');
-                removeClass(bg, 'cont2-11');
-                removeClass(bg, 'cont1-31');
-                removeClass(bg, 'cont1-41');
-                removeClass(bg, 'cont2-31');
-                removeClass(bg, 'cont2-41');
-                removeClass(bg, 'cont3-11');
-                removeClass(bg, 'cont3-21');
-                removeClass(bg, 'cont3-41');
-                removeClass(bg, 'cont4-11');
-                removeClass(bg, 'cont4-21');
-                removeClass(bg, 'cont4-31');
+                removeClass(video, 'fir-act3-2');
+                removeClass(video, 'fir-act2-3')
+                removeClass(video, 'fir-act4-3')
+                removeClass(video, 'cont1-21');
+                removeClass(video, 'cont2-11');
+                removeClass(video, 'cont1-31');
+                removeClass(video, 'cont1-41');
+                removeClass(video, 'cont2-31');
+                removeClass(video, 'cont2-41');
+                removeClass(video, 'cont3-11');
+                removeClass(video, 'cont3-21');
+                removeClass(video, 'cont3-41');
+                removeClass(video, 'cont4-11');
+                removeClass(video, 'cont4-21');
+                removeClass(video, 'cont4-31');
 
-                bg.className += ' ' + 'cont3-21'
+                video.className += ' ' + 'cont3-21'
             }, 1000);
         } else if (fff[6].style.opacity == 1) {
             bg1.className = 'animated slideInLeft'
@@ -202,24 +205,24 @@ function click() {
                 removeClass(bg1, 'animated slideInLeft');
             }, 1000);
 
-            bg.className += ' ' + 'fir-act4-2';
+            video.className += ' ' + 'fir-act4-2';
             setTimeout(function () {
-                removeClass(bg, 'fir-act4-2');
-                removeClass(bg, 'fir-act2-3')
-                removeClass(bg, 'fir-act4-3')
-                removeClass(bg, 'cont1-21');
-                removeClass(bg, 'cont2-11');
-                removeClass(bg, 'cont1-31');
-                removeClass(bg, 'cont1-41');
-                removeClass(bg, 'cont2-31');
-                removeClass(bg, 'cont2-41');
-                removeClass(bg, 'cont3-11');
-                removeClass(bg, 'cont3-21');
-                removeClass(bg, 'cont3-41');
-                removeClass(bg, 'cont4-11');
-                removeClass(bg, 'cont4-21');
-                removeClass(bg, 'cont4-31');
-                bg.className += ' ' + 'cont4-21'
+                removeClass(video, 'fir-act4-2');
+                removeClass(video, 'fir-act2-3')
+                removeClass(video, 'fir-act4-3')
+                removeClass(video, 'cont1-21');
+                removeClass(video, 'cont2-11');
+                removeClass(video, 'cont1-31');
+                removeClass(video, 'cont1-41');
+                removeClass(video, 'cont2-31');
+                removeClass(video, 'cont2-41');
+                removeClass(video, 'cont3-11');
+                removeClass(video, 'cont3-21');
+                removeClass(video, 'cont3-41');
+                removeClass(video, 'cont4-11');
+                removeClass(video, 'cont4-21');
+                removeClass(video, 'cont4-31');
+                video.className += ' ' + 'cont4-21'
             }, 1000);
         }
         bg1.src = 'img/bg2.png';
@@ -248,25 +251,25 @@ function click() {
                 removeClass(bg1, 'animated slideInRight');
             }, 1000);
 
-            bg.className += ' ' + 'fir-act1-3';
+            video.className += ' ' + 'fir-act1-3';
             setTimeout(function () {
-                removeClass(bg, 'fir-act1-3');
-                removeClass(bg, 'fir-act2-3')
-                removeClass(bg, 'fir-act4-3');
-                removeClass(bg, 'fir-act3-4')
-                removeClass(bg, 'cont1-21');
-                removeClass(bg, 'cont2-11');
-                removeClass(bg, 'cont1-31');
-                removeClass(bg, 'cont1-41');
-                removeClass(bg, 'cont2-31');
-                removeClass(bg, 'cont2-41');
-                removeClass(bg, 'cont3-11');
-                removeClass(bg, 'cont3-21');
-                removeClass(bg, 'cont3-41');
-                removeClass(bg, 'cont4-11');
-                removeClass(bg, 'cont4-21');
-                removeClass(bg, 'cont4-31');
-                bg.className += ' ' + 'cont1-31'
+                removeClass(video, 'fir-act1-3');
+                removeClass(video, 'fir-act2-3')
+                removeClass(video, 'fir-act4-3');
+                removeClass(video, 'fir-act3-4')
+                removeClass(video, 'cont1-21');
+                removeClass(video, 'cont2-11');
+                removeClass(video, 'cont1-31');
+                removeClass(video, 'cont1-41');
+                removeClass(video, 'cont2-31');
+                removeClass(video, 'cont2-41');
+                removeClass(video, 'cont3-11');
+                removeClass(video, 'cont3-21');
+                removeClass(video, 'cont3-41');
+                removeClass(video, 'cont4-11');
+                removeClass(video, 'cont4-21');
+                removeClass(video, 'cont4-31');
+                video.className += ' ' + 'cont1-31'
             }, 1000);
         } else if (fff[2].style.opacity == 1) {
             bg1.className = 'animated slideInRight'
@@ -274,24 +277,24 @@ function click() {
                 removeClass(bg1, 'animated slideInRight');
             }, 1000);
 
-            bg.className += ' ' + 'fir-act2-3';
+            video.className += ' ' + 'fir-act2-3';
             setTimeout(function () {
-                removeClass(bg, 'fir-act2-3');
-                removeClass(bg, 'fir-act4-3');
-                removeClass(bg, 'fir-act3-4');
-                removeClass(bg, 'cont1-21');
-                removeClass(bg, 'cont2-11');
-                removeClass(bg, 'cont1-31');
-                removeClass(bg, 'cont1-41');
-                removeClass(bg, 'cont2-31');
-                removeClass(bg, 'cont2-41');
-                removeClass(bg, 'cont3-11');
-                removeClass(bg, 'cont3-21');
-                removeClass(bg, 'cont3-41');
-                removeClass(bg, 'cont4-11');
-                removeClass(bg, 'cont4-21');
-                removeClass(bg, 'cont4-31');
-                bg.className += ' ' + 'cont2-31'
+                removeClass(video, 'fir-act2-3');
+                removeClass(video, 'fir-act4-3');
+                removeClass(video, 'fir-act3-4');
+                removeClass(video, 'cont1-21');
+                removeClass(video, 'cont2-11');
+                removeClass(video, 'cont1-31');
+                removeClass(video, 'cont1-41');
+                removeClass(video, 'cont2-31');
+                removeClass(video, 'cont2-41');
+                removeClass(video, 'cont3-11');
+                removeClass(video, 'cont3-21');
+                removeClass(video, 'cont3-41');
+                removeClass(video, 'cont4-11');
+                removeClass(video, 'cont4-21');
+                removeClass(video, 'cont4-31');
+                video.className += ' ' + 'cont2-31'
             }, 1000);
         } else if (fff[6].style.opacity == 1) {
             bg1.className = 'animated slideInLeft'
@@ -299,24 +302,24 @@ function click() {
                 removeClass(bg1, 'animated slideInLeft');
             }, 1000);
 
-            bg.className += ' ' + 'fir-act4-3';
+            video.className += ' ' + 'fir-act4-3';
             setTimeout(function () {
-                removeClass(bg, 'fir-act2-3')
-                removeClass(bg, 'fir-act4-3')
-                removeClass(bg, 'fir-act3-4')
-                removeClass(bg, 'cont1-21');
-                removeClass(bg, 'cont2-11');
-                removeClass(bg, 'cont1-31');
-                removeClass(bg, 'cont1-41');
-                removeClass(bg, 'cont2-31');
-                removeClass(bg, 'cont2-41');
-                removeClass(bg, 'cont3-11');
-                removeClass(bg, 'cont3-21');
-                removeClass(bg, 'cont3-41');
-                removeClass(bg, 'cont4-11');
-                removeClass(bg, 'cont4-21');
-                removeClass(bg, 'cont4-31');
-                bg.className += ' ' + 'cont4-31'
+                removeClass(video, 'fir-act2-3')
+                removeClass(video, 'fir-act4-3')
+                removeClass(video, 'fir-act3-4')
+                removeClass(video, 'cont1-21');
+                removeClass(video, 'cont2-11');
+                removeClass(video, 'cont1-31');
+                removeClass(video, 'cont1-41');
+                removeClass(video, 'cont2-31');
+                removeClass(video, 'cont2-41');
+                removeClass(video, 'cont3-11');
+                removeClass(video, 'cont3-21');
+                removeClass(video, 'cont3-41');
+                removeClass(video, 'cont4-11');
+                removeClass(video, 'cont4-21');
+                removeClass(video, 'cont4-31');
+                video.className += ' ' + 'cont4-31'
             }, 1000);
         }
         bg1.src = 'img/bg3.png';
@@ -345,26 +348,26 @@ function click() {
                 removeClass(bg1, 'animated slideInRight');
             }, 1000);
 
-            bg.className += ' ' + 'fir-act1-4';
+            video.className += ' ' + 'fir-act1-4';
             setTimeout(function () {
-                removeClass(bg, 'fir-act1-4');
-                removeClass(bg, 'fir-act2-3')
-                removeClass(bg, 'fir-act4-3');
-                removeClass(bg, 'fir-act3-4')
+                removeClass(video, 'fir-act1-4');
+                removeClass(video, 'fir-act2-3')
+                removeClass(video, 'fir-act4-3');
+                removeClass(video, 'fir-act3-4')
 
-                removeClass(bg, 'cont1-21');
-                removeClass(bg, 'cont2-11');
-                removeClass(bg, 'cont1-31');
-                removeClass(bg, 'cont1-41');
-                removeClass(bg, 'cont2-31');
-                removeClass(bg, 'cont2-41');
-                removeClass(bg, 'cont3-11');
-                removeClass(bg, 'cont3-21');
-                removeClass(bg, 'cont3-41');
-                removeClass(bg, 'cont4-11');
-                removeClass(bg, 'cont4-21');
-                removeClass(bg, 'cont4-31');
-                bg.className += ' ' + 'cont1-41'
+                removeClass(video, 'cont1-21');
+                removeClass(video, 'cont2-11');
+                removeClass(video, 'cont1-31');
+                removeClass(video, 'cont1-41');
+                removeClass(video, 'cont2-31');
+                removeClass(video, 'cont2-41');
+                removeClass(video, 'cont3-11');
+                removeClass(video, 'cont3-21');
+                removeClass(video, 'cont3-41');
+                removeClass(video, 'cont4-11');
+                removeClass(video, 'cont4-21');
+                removeClass(video, 'cont4-31');
+                video.className += ' ' + 'cont1-41'
             }, 1000);
         } else if (fff[2].style.opacity == 1) {
             bg1.className = 'animated slideInRight'
@@ -372,25 +375,25 @@ function click() {
                 removeClass(bg1, 'animated slideInRight');
             }, 1000);
 
-            bg.className += ' ' + 'fir-act2-4';
+            video.className += ' ' + 'fir-act2-4';
             setTimeout(function () {
-                removeClass(bg, 'fir-act2-4')
-                removeClass(bg, 'fir-act2-3')
-                removeClass(bg, 'fir-act4-3')
-                removeClass(bg, 'fir-act3-4')
-                removeClass(bg, 'cont1-21');
-                removeClass(bg, 'cont2-11');
-                removeClass(bg, 'cont1-31');
-                removeClass(bg, 'cont1-41');
-                removeClass(bg, 'cont2-31');
-                removeClass(bg, 'cont2-41');
-                removeClass(bg, 'cont3-11');
-                removeClass(bg, 'cont3-21');
-                removeClass(bg, 'cont3-41');
-                removeClass(bg, 'cont4-11');
-                removeClass(bg, 'cont4-21');
-                removeClass(bg, 'cont4-31');
-                bg.className += ' ' + 'cont2-41'
+                removeClass(video, 'fir-act2-4')
+                removeClass(video, 'fir-act2-3')
+                removeClass(video, 'fir-act4-3')
+                removeClass(video, 'fir-act3-4')
+                removeClass(video, 'cont1-21');
+                removeClass(video, 'cont2-11');
+                removeClass(video, 'cont1-31');
+                removeClass(video, 'cont1-41');
+                removeClass(video, 'cont2-31');
+                removeClass(video, 'cont2-41');
+                removeClass(video, 'cont3-11');
+                removeClass(video, 'cont3-21');
+                removeClass(video, 'cont3-41');
+                removeClass(video, 'cont4-11');
+                removeClass(video, 'cont4-21');
+                removeClass(video, 'cont4-31');
+                video.className += ' ' + 'cont2-41'
             }, 1000);
         } else if (fff[4].style.opacity == 1) {
             bg1.className = 'animated slideInRight'
@@ -398,24 +401,24 @@ function click() {
                 removeClass(bg1, 'animated slideInRight');
             }, 1000);
 
-            bg.className += ' ' + 'fir-act3-4';
+            video.className += ' ' + 'fir-act3-4';
             setTimeout(function () {
-                removeClass(bg, 'fir-act3-4');
-                removeClass(bg, 'fir-act2-3')
-                removeClass(bg, 'fir-act4-3')
-                removeClass(bg, 'cont1-21');
-                removeClass(bg, 'cont2-11');
-                removeClass(bg, 'cont1-31');
-                removeClass(bg, 'cont1-41');
-                removeClass(bg, 'cont2-31');
-                removeClass(bg, 'cont2-41');
-                removeClass(bg, 'cont3-11');
-                removeClass(bg, 'cont3-21');
-                removeClass(bg, 'cont3-41');
-                removeClass(bg, 'cont4-11');
-                removeClass(bg, 'cont4-21');
-                removeClass(bg, 'cont4-31');
-                bg.className += ' ' + 'cont3-41'
+                removeClass(video, 'fir-act3-4');
+                removeClass(video, 'fir-act2-3')
+                removeClass(video, 'fir-act4-3')
+                removeClass(video, 'cont1-21');
+                removeClass(video, 'cont2-11');
+                removeClass(video, 'cont1-31');
+                removeClass(video, 'cont1-41');
+                removeClass(video, 'cont2-31');
+                removeClass(video, 'cont2-41');
+                removeClass(video, 'cont3-11');
+                removeClass(video, 'cont3-21');
+                removeClass(video, 'cont3-41');
+                removeClass(video, 'cont4-11');
+                removeClass(video, 'cont4-21');
+                removeClass(video, 'cont4-31');
+                video.className += ' ' + 'cont3-41'
             }, 1000);
         }
         bg1.src = 'img/bg4.png';
@@ -444,33 +447,33 @@ function click() {
                 removeClass(bg1, 'animated slideInRight');
             }, 1000);
 
-            bg.className += ' ' + 'fir-act1-2';
+            video.className += ' ' + 'fir-act1-2';
             setTimeout(function () {
-                removeClass(bg, 'fir-act1-2');
-                removeClass(bg, 'fir-act1-3');
-                removeClass(bg, 'fir-act1-4');
-                removeClass(bg, 'fir-act2-1');
-                removeClass(bg, 'fir-act2-3');
-                removeClass(bg, 'fir-act2-4');
-                removeClass(bg, 'fir-act3-1');
-                removeClass(bg, 'fir-act3-2');
-                removeClass(bg, 'fir-act3-4');
-                removeClass(bg, 'fir-act4-1');
-                removeClass(bg, 'fir-act4-2');
-                removeClass(bg, 'fir-act4-3');
-                removeClass(bg, 'cont1-21');
-                removeClass(bg, 'cont1-31');
-                removeClass(bg, 'cont1-41');
-                removeClass(bg, 'cont2-11');
-                removeClass(bg, 'cont2-31');
-                removeClass(bg, 'cont2-41');
-                removeClass(bg, 'cont3-11');
-                removeClass(bg, 'cont3-21');
-                removeClass(bg, 'cont3-41');
-                removeClass(bg, 'cont4-11');
-                removeClass(bg, 'cont4-21');
-                removeClass(bg, 'cont4-31');
-                bg.className += ' ' + 'cont1-21'
+                removeClass(video, 'fir-act1-2');
+                removeClass(video, 'fir-act1-3');
+                removeClass(video, 'fir-act1-4');
+                removeClass(video, 'fir-act2-1');
+                removeClass(video, 'fir-act2-3');
+                removeClass(video, 'fir-act2-4');
+                removeClass(video, 'fir-act3-1');
+                removeClass(video, 'fir-act3-2');
+                removeClass(video, 'fir-act3-4');
+                removeClass(video, 'fir-act4-1');
+                removeClass(video, 'fir-act4-2');
+                removeClass(video, 'fir-act4-3');
+                removeClass(video, 'cont1-21');
+                removeClass(video, 'cont1-31');
+                removeClass(video, 'cont1-41');
+                removeClass(video, 'cont2-11');
+                removeClass(video, 'cont2-31');
+                removeClass(video, 'cont2-41');
+                removeClass(video, 'cont3-11');
+                removeClass(video, 'cont3-21');
+                removeClass(video, 'cont3-41');
+                removeClass(video, 'cont4-11');
+                removeClass(video, 'cont4-21');
+                removeClass(video, 'cont4-31');
+                video.className += ' ' + 'cont1-21'
             }, 1000);
         } else if (fff[2].style.opacity == 1) {
             bg1.className = 'animated slideInRight'
@@ -478,23 +481,23 @@ function click() {
                 removeClass(bg1, 'animated slideInRight');
             }, 1000);
 
-            bg.className += ' ' + 'fir-act2-3';
+            video.className += ' ' + 'fir-act2-3';
             setTimeout(function () {
-                removeClass(bg, 'fir-act2-3');
-                removeClass(bg, 'cont1-21');
-                removeClass(bg, 'cont1-31');
-                removeClass(bg, 'cont1-41');
-                removeClass(bg, 'cont2-11');
-                removeClass(bg, 'cont2-31');
-                removeClass(bg, 'cont2-41');
-                removeClass(bg, 'cont3-11');
-                removeClass(bg, 'cont3-21');
-                removeClass(bg, 'cont3-41');
-                removeClass(bg, 'cont4-11');
-                removeClass(bg, 'cont4-21');
-                removeClass(bg, 'cont4-31');
+                removeClass(video, 'fir-act2-3');
+                removeClass(video, 'cont1-21');
+                removeClass(video, 'cont1-31');
+                removeClass(video, 'cont1-41');
+                removeClass(video, 'cont2-11');
+                removeClass(video, 'cont2-31');
+                removeClass(video, 'cont2-41');
+                removeClass(video, 'cont3-11');
+                removeClass(video, 'cont3-21');
+                removeClass(video, 'cont3-41');
+                removeClass(video, 'cont4-11');
+                removeClass(video, 'cont4-21');
+                removeClass(video, 'cont4-31');
 
-                bg.className += ' ' + 'cont2-31'
+                video.className += ' ' + 'cont2-31'
             }, 1000);
         } else if (fff[4].style.opacity == 1) {
             bg1.className = 'animated slideInRight'
@@ -502,23 +505,23 @@ function click() {
                 removeClass(bg1, 'animated slideInRight');
             }, 1000);
 
-            bg.className += ' ' + 'fir-act3-4';
+            video.className += ' ' + 'fir-act3-4';
             setTimeout(function () {
-                removeClass(bg, 'fir-act3-4');
-                removeClass(bg, 'cont1-21');
-                removeClass(bg, 'cont1-31');
-                removeClass(bg, 'cont1-41');
-                removeClass(bg, 'cont2-11');
-                removeClass(bg, 'cont2-31');
-                removeClass(bg, 'cont2-41');
-                removeClass(bg, 'cont3-11');
-                removeClass(bg, 'cont3-21');
-                removeClass(bg, 'cont3-41');
-                removeClass(bg, 'cont4-11');
-                removeClass(bg, 'cont4-21');
-                removeClass(bg, 'cont4-31');
+                removeClass(video, 'fir-act3-4');
+                removeClass(video, 'cont1-21');
+                removeClass(video, 'cont1-31');
+                removeClass(video, 'cont1-41');
+                removeClass(video, 'cont2-11');
+                removeClass(video, 'cont2-31');
+                removeClass(video, 'cont2-41');
+                removeClass(video, 'cont3-11');
+                removeClass(video, 'cont3-21');
+                removeClass(video, 'cont3-41');
+                removeClass(video, 'cont4-11');
+                removeClass(video, 'cont4-21');
+                removeClass(video, 'cont4-31');
 
-                bg.className += ' ' + 'cont3-41'
+                video.className += ' ' + 'cont3-41'
             }, 1000);
         } else if (fff[6].style.opacity == 1) {
             bg1.className = 'animated slideInLeft'
@@ -526,23 +529,23 @@ function click() {
                 removeClass(bg1, 'animated slideInLeft');
             }, 1000);
 
-            bg.className += ' ' + 'fir-act4-1';
+            video.className += ' ' + 'fir-act4-1';
             setTimeout(function () {
-                removeClass(bg, 'fir-act4-1');
-                removeClass(bg, 'cont1-21');
-                removeClass(bg, 'cont1-31');
-                removeClass(bg, 'cont1-41');
-                removeClass(bg, 'cont2-11');
-                removeClass(bg, 'cont2-31');
-                removeClass(bg, 'cont2-41');
-                removeClass(bg, 'cont3-11');
-                removeClass(bg, 'cont3-21');
-                removeClass(bg, 'cont3-41');
-                removeClass(bg, 'cont4-11');
-                removeClass(bg, 'cont4-21');
-                removeClass(bg, 'cont4-31');
+                removeClass(video, 'fir-act4-1');
+                removeClass(video, 'cont1-21');
+                removeClass(video, 'cont1-31');
+                removeClass(video, 'cont1-41');
+                removeClass(video, 'cont2-11');
+                removeClass(video, 'cont2-31');
+                removeClass(video, 'cont2-41');
+                removeClass(video, 'cont3-11');
+                removeClass(video, 'cont3-21');
+                removeClass(video, 'cont3-41');
+                removeClass(video, 'cont4-11');
+                removeClass(video, 'cont4-21');
+                removeClass(video, 'cont4-31');
 
-                bg.className += ' ' + 'cont4-11'
+                video.className += ' ' + 'cont4-11'
             }, 1000);
         }
 
@@ -637,23 +640,23 @@ function click() {
                 removeClass(bg1, 'animated slideInRight');
             }, 1000);
 
-            bg.className += ' ' + 'fir-act1-4';
+            video.className += ' ' + 'fir-act1-4';
             setTimeout(function () {
-                removeClass(bg, 'fir-act1-4');
-                removeClass(bg, 'cont1-21');
-                removeClass(bg, 'cont1-31');
-                removeClass(bg, 'cont1-41');
-                removeClass(bg, 'cont2-11');
-                removeClass(bg, 'cont2-31');
-                removeClass(bg, 'cont2-41');
-                removeClass(bg, 'cont3-11');
-                removeClass(bg, 'cont3-21');
-                removeClass(bg, 'cont3-41');
-                removeClass(bg, 'cont4-11');
-                removeClass(bg, 'cont4-21');
-                removeClass(bg, 'cont4-31');
+                removeClass(video, 'fir-act1-4');
+                removeClass(video, 'cont1-21');
+                removeClass(video, 'cont1-31');
+                removeClass(video, 'cont1-41');
+                removeClass(video, 'cont2-11');
+                removeClass(video, 'cont2-31');
+                removeClass(video, 'cont2-41');
+                removeClass(video, 'cont3-11');
+                removeClass(video, 'cont3-21');
+                removeClass(video, 'cont3-41');
+                removeClass(video, 'cont4-11');
+                removeClass(video, 'cont4-21');
+                removeClass(video, 'cont4-31');
 
-                bg.className += ' ' + 'cont1-41'
+                video.className += ' ' + 'cont1-41'
             }, 1000);
         } else if (fff[2].style.opacity == 1) {
             bg1.className = 'animated slideInLeft'
@@ -661,23 +664,23 @@ function click() {
                 removeClass(bg1, 'animated slideInLeft');
             }, 1000);
 
-            bg.className += ' ' + 'fir-act2-1';
+            video.className += ' ' + 'fir-act2-1';
             setTimeout(function () {
-                removeClass(bg, 'fir-act2-1');
-                removeClass(bg, 'cont1-21');
-                removeClass(bg, 'cont1-31');
-                removeClass(bg, 'cont1-41');
-                removeClass(bg, 'cont2-11');
-                removeClass(bg, 'cont2-31');
-                removeClass(bg, 'cont2-41');
-                removeClass(bg, 'cont3-11');
-                removeClass(bg, 'cont3-21');
-                removeClass(bg, 'cont3-41');
-                removeClass(bg, 'cont4-11');
-                removeClass(bg, 'cont4-21');
-                removeClass(bg, 'cont4-31');
+                removeClass(video, 'fir-act2-1');
+                removeClass(video, 'cont1-21');
+                removeClass(video, 'cont1-31');
+                removeClass(video, 'cont1-41');
+                removeClass(video, 'cont2-11');
+                removeClass(video, 'cont2-31');
+                removeClass(video, 'cont2-41');
+                removeClass(video, 'cont3-11');
+                removeClass(video, 'cont3-21');
+                removeClass(video, 'cont3-41');
+                removeClass(video, 'cont4-11');
+                removeClass(video, 'cont4-21');
+                removeClass(video, 'cont4-31');
 
-                bg.className += ' ' + 'cont2-11'
+                video.className += ' ' + 'cont2-11'
             }, 1000);
         } else if (fff[4].style.opacity == 1) {
             bg1.className = 'animated slideInLeft'
@@ -685,23 +688,23 @@ function click() {
                 removeClass(bg1, 'animated slideInLeft');
             }, 1000);
 
-            bg.className += ' ' + 'fir-act3-2';
+            video.className += ' ' + 'fir-act3-2';
             setTimeout(function () {
-                removeClass(bg, 'fir-act3-2');
-                removeClass(bg, 'cont1-21');
-                removeClass(bg, 'cont1-31');
-                removeClass(bg, 'cont1-41');
-                removeClass(bg, 'cont2-11');
-                removeClass(bg, 'cont2-31');
-                removeClass(bg, 'cont2-41');
-                removeClass(bg, 'cont3-11');
-                removeClass(bg, 'cont3-21');
-                removeClass(bg, 'cont3-41');
-                removeClass(bg, 'cont4-11');
-                removeClass(bg, 'cont4-21');
-                removeClass(bg, 'cont4-31');
+                removeClass(video, 'fir-act3-2');
+                removeClass(video, 'cont1-21');
+                removeClass(video, 'cont1-31');
+                removeClass(video, 'cont1-41');
+                removeClass(video, 'cont2-11');
+                removeClass(video, 'cont2-31');
+                removeClass(video, 'cont2-41');
+                removeClass(video, 'cont3-11');
+                removeClass(video, 'cont3-21');
+                removeClass(video, 'cont3-41');
+                removeClass(video, 'cont4-11');
+                removeClass(video, 'cont4-21');
+                removeClass(video, 'cont4-31');
 
-                bg.className += ' ' + 'cont3-21'
+                video.className += ' ' + 'cont3-21'
             }, 1000);
         } else if (fff[6].style.opacity == 1) {
             bg1.className = 'animated slideInLeft'
@@ -709,23 +712,23 @@ function click() {
                 removeClass(bg1, 'animated slideInLeft');
             }, 1000);
 
-            bg.className += ' ' + 'fir-act4-3';
+            video.className += ' ' + 'fir-act4-3';
             setTimeout(function () {
-                removeClass(bg, 'fir-act4-3');
-                removeClass(bg, 'cont1-21');
-                removeClass(bg, 'cont1-31');
-                removeClass(bg, 'cont1-41');
-                removeClass(bg, 'cont2-11');
-                removeClass(bg, 'cont2-31');
-                removeClass(bg, 'cont2-41');
-                removeClass(bg, 'cont3-11');
-                removeClass(bg, 'cont3-21');
-                removeClass(bg, 'cont3-41');
-                removeClass(bg, 'cont4-11');
-                removeClass(bg, 'cont4-21');
-                removeClass(bg, 'cont4-31');
+                removeClass(video, 'fir-act4-3');
+                removeClass(video, 'cont1-21');
+                removeClass(video, 'cont1-31');
+                removeClass(video, 'cont1-41');
+                removeClass(video, 'cont2-11');
+                removeClass(video, 'cont2-31');
+                removeClass(video, 'cont2-41');
+                removeClass(video, 'cont3-11');
+                removeClass(video, 'cont3-21');
+                removeClass(video, 'cont3-41');
+                removeClass(video, 'cont4-11');
+                removeClass(video, 'cont4-21');
+                removeClass(video, 'cont4-31');
 
-                bg.className += ' ' + 'cont4-31'
+                video.className += ' ' + 'cont4-31'
             }, 1000);
         }
 
@@ -1325,13 +1328,18 @@ bg.addEventListener('touchmove', function (e) {
     moveX = e.touches[0].pageX - mx;
 })
 bg.addEventListener('touchend', function (e) {
-    if (moveX > 100) {
-        left.onclick()
-    } else if (moveX < -100) {
-        right.onclick()
+    try{
+        if (moveX > 100) {
+            left.onclick()
+        } else if (moveX < -100) {
+            right.onclick()
 
 
+        }
+    }catch(err){
+        console.log('请滑动')
     }
+
 })
 
 

@@ -74,13 +74,21 @@ a {
 }
 
 .first-screen {
-    background: url("../img/BG-01.gif") no-repeat;
-    background-size: 200% 100%;
+    /*background: url("../img/BG-01.gif") no-repeat;
+    background-size: 200% 100%;*/
     position: fixed;
     z-index: -1;
     width: 100%;
 }
-
+.vid{
+    position: fixed;
+    z-index: -2;
+}
+.video{
+    height: 100%;
+    object-fit:fill;
+    position: relative;
+}
 .fir-act1-2 {
     animation: cont1-2 1s linear 1;
     animation-fill-mode: forwards;
@@ -143,159 +151,159 @@ a {
 
 @keyframes cont1-2 {
     from {
-        background-position: 0 0;
+        right: 0;
     }
     to {
-        background-position: 10% 0;
+        right: 24%;
     }
 }
 
 .cont1-21 {
-    background-position: 10% 0;
+    right: 24% ;
 
 }
 
 @keyframes cont1-3 {
     from {
-        background-position: 0 0;
+        right: 0;
     }
     to {
-        background-position: 20% 0;
+        right: 48%;
     }
 }
 
 .cont1-31 {
-    background-position: 20% 0;
+    right: 48%;
 }
 
 @keyframes cont1-4 {
     from {
-        background-position: 0 0;
+        right: 0;
     }
     to {
-        background-position: 30% 0;
+        right: 72%;
     }
 }
 
 .cont1-41 {
-    background-position: 30% 0;
+    right: 72%;
 }
 
 @keyframes cont2-1 {
     from {
-        background-position: 10% 0;
+        right: 24%;
     }
     to {
-        background-position: 0 0;
+        right: 0;
     }
 }
 
 .cont2-11 {
-    background-position: 0 0;
+    right: 0;
 }
 
 @keyframes cont2-3 {
     from {
-        background-position: 10% 0;
+        right: 24%;
     }
     to {
-        background-position: 20% 0;
+        right: 48%;
     }
 }
 
 .cont2-31 {
-    background-position: 20% 0;
+    right: 48%;
 }
 
 @keyframes cont2-4 {
     from {
-        background-position: 10% 0;
+        right: 24%;
     }
     to {
-        background-position: 30% 0;
+        right: 72%;
     }
 }
 
 .cont2-41 {
-    background-position: 30% 0;
+    right: 72%;
 }
 
 @keyframes cont3-1 {
     from {
-        background-position: 20% 0;
+        right: 48%;
     }
     to {
-        background-position: 0 0;
+        right: 0;
     }
 }
 
 .cont3-11 {
-    background-position: 0 0;
+    right: 0;
 }
 
 @keyframes cont3-2 {
     from {
-        background-position: 20% 0;
+        right: 48%;
     }
     to {
-        background-position: 10% 0;
+        right: 24%;
     }
 }
 
 .cont3-21 {
-    background-position: 10% 0;
+    right: 24%;
 }
 
 @keyframes cont3-4 {
     from {
-        background-position: 20% 0;
+        right: 48%;
     }
     to {
-        background-position: 30% 0;
+        right: 72%;
     }
 }
 
 .cont3-41 {
-    background-position: 30% 0;
+    right: 72%;
 }
 
 @keyframes cont4-1 {
     from {
-        background-position: 30% 0;
+        right: 72%;
     }
     to {
-        background-position: 0 0;
+        right: 0;
     }
 }
 
 .cont4-11 {
-    background-position: 0 0;
+    right: 0;
 }
 
 @keyframes cont4-2 {
     from {
-        background-position: 30% 0;
+        right: 72%;
     }
     to {
-        background-position: 20% 0;
+        right: 24%;
     }
 }
 
 .cont4-21 {
-    background-position: 20% 0;
+    right: 24%;
 }
 
 @keyframes cont4-3 {
     from {
-        background-position: 30% 0;
+        right: 72%;
     }
     to {
-        background-position: 20% 0;
+        right: 48%;
     }
 }
 
 .cont4-31 {
-    background-position: 20% 0;
+    right: 48%;
 }
 
 .first-screen img:nth-of-type(1) {
@@ -944,7 +952,7 @@ a {
     margin: .51rem 0 0 .61rem;
 }
 .content2 .part33 .achievementBorder .achievementM1{
-    background: url("../img/page2/achievement%1.png") no-repeat;
+    background: url("../img/page2/achievementM1.png") no-repeat;
     background-size: 100% 100%;
     height: .58rem;
     width: .79rem;
@@ -960,7 +968,7 @@ a {
     margin: .51rem 0 0 3.05rem;
 }
 .content2 .part33 .achievementBorder .achievementM2{
-    background: url("../img/page2/achievement%2.png") no-repeat;
+    background: url("../img/page2/achievementM2.png") no-repeat;
     background-size: 100% 100%;
     height: .58rem;
     width: .79rem;
@@ -984,7 +992,7 @@ a {
     margin: .51rem 0 0 .61rem;
 }
 .content2 .part33 .achievementBg .achievementM3{
-    background: url("../img/page2/achievement%3.png") no-repeat;
+    background: url("../img/page2/achievementM3.png") no-repeat;
     background-size: 100% 100%;
     height: .58rem;
     width: .80rem;
@@ -1000,7 +1008,7 @@ a {
     margin: .51rem 0 0 3.05rem;
 }
 .content2 .part33 .achievementBg .achievementM4{
-    background: url("../img/page2/achievement%4.png") no-repeat;
+    background: url("../img/page2/achievementM4.png") no-repeat;
     background-size: 100% 100%;
     height: .58rem;
     width: .79rem;

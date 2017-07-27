@@ -13,9 +13,7 @@ var shadow = document.getElementsByClassName('shadow')[0];
 var vid = document.getElementsByClassName('vid')[0];
 var video = document.getElementsByClassName('video')[0];
 
-    document.addEventListener("WeixinJSBridgeReady", function () {
-        video.play();
-    }, false);
+
 
 
 fff[0].style.opacity = 1;

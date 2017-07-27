@@ -86,7 +86,6 @@ a {
 }
 .video{
     height: 100%;
-    object-fit:fill;
     position: relative;
 }
 .fir-act1-2 {

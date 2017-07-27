@@ -87,6 +87,7 @@ a {
 .video{
     height: 100%;
     position: relative;
+    right: 12%;
 }
 .fir-act1-2 {
     animation: cont1-2 1s linear 1;
@@ -150,34 +151,34 @@ a {
 
 @keyframes cont1-2 {
     from {
-        right: 0;
+        right: 12%;
     }
     to {
-        right: 24%;
+        right: 32%;
     }
 }
 
 .cont1-21 {
-    right: 24% ;
+    right: 32% ;
 
 }
 
 @keyframes cont1-3 {
     from {
-        right: 0;
+        right: 12%;
     }
     to {
-        right: 48%;
+        right: 52%;
     }
 }
 
 .cont1-31 {
-    right: 48%;
+    right: 52%;
 }
 
 @keyframes cont1-4 {
     from {
-        right: 0;
+        right: 12%;
     }
     to {
         right: 72%;
@@ -190,33 +191,33 @@ a {
 
 @keyframes cont2-1 {
     from {
-        right: 24%;
+        right: 32%;
     }
     to {
-        right: 0;
+        right: 12%;
     }
 }
 
 .cont2-11 {
-    right: 0;
+    right: 12%;
 }
 
 @keyframes cont2-3 {
     from {
-        right: 24%;
+        right: 32%;
     }
     to {
-        right: 48%;
+        right: 52%;
     }
 }
 
 .cont2-31 {
-    right: 48%;
+    right: 52%;
 }
 
 @keyframes cont2-4 {
     from {
-        right: 24%;
+        right: 32%;
     }
     to {
         right: 72%;
@@ -229,33 +230,33 @@ a {
 
 @keyframes cont3-1 {
     from {
-        right: 48%;
+        right: 52%;
     }
     to {
-        right: 0;
+        right: 12%;
     }
 }
 
 .cont3-11 {
-    right: 0;
+    right: 12%;
 }
 
 @keyframes cont3-2 {
     from {
-        right: 48%;
+        right: 52%;
     }
     to {
-        right: 24%;
+        right: 32%;
     }
 }
 
 .cont3-21 {
-    right: 24%;
+    right: 32%;
 }
 
 @keyframes cont3-4 {
     from {
-        right: 48%;
+        right: 52%;
     }
     to {
         right: 72%;
@@ -271,12 +272,12 @@ a {
         right: 72%;
     }
     to {
-        right: 0;
+        right: 12%;
     }
 }
 
 .cont4-11 {
-    right: 0;
+    right: 12%;
 }
 
 @keyframes cont4-2 {
@@ -284,12 +285,12 @@ a {
         right: 72%;
     }
     to {
-        right: 24%;
+        right: 32%;
     }
 }
 
 .cont4-21 {
-    right: 24%;
+    right: 32%;
 }
 
 @keyframes cont4-3 {
@@ -297,12 +298,12 @@ a {
         right: 72%;
     }
     to {
-        right: 48%;
+        right: 52%;
     }
 }
 
 .cont4-31 {
-    right: 48%;
+    right: 52%;
 }
 
 .first-screen img:nth-of-type(1) {

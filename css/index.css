@@ -1047,6 +1047,17 @@ a {
     position: absolute;
     margin: .99rem 0 0 3.53rem;
 }
+.content2 .part34{
+    width: 2.2rem;
+    height: 2.19rem;
+    position: relative;
+    margin-top: -3.57rem;
+    margin-left: 2.1rem;
+}
+.content2 .part34 img{
+    width: 2.2rem;
+    height: 2.19rem;
+}
 /********************cont3******************************/
 .content3 .part2 {
     height: 5.38rem;
@@ -1082,6 +1093,17 @@ a {
         width: .79rem;
         height: .58rem;
     }
+}
+.content3 .QR,.content4 .QR{
+    width: 2.2rem;
+    height: 2.19rem;
+    position: relative;
+    margin-top: -3.57rem;
+    margin-left: 2.1rem;
+}
+.content3 .QR img,.content4 .QR img{
+    width: 2.2rem;
+    height: 2.19rem;
 }
 /********************cont4******************************/
 .content4 {

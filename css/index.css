@@ -72,6 +72,16 @@ a {
     height: 1.26rem;
     width: 100%;
 }
+.first-screen .shadow1{
+    background: url("../img/shadow.png")no-repeat;
+    background-size: 100% 100%;
+    z-index: -1;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 2.84rem;
+    width: 100%;
+}
 
 .first-screen {
     /*background: url("../img/BG-01.gif") no-repeat;
@@ -1016,11 +1026,15 @@ a {
 }
 /********************cont3******************************/
 .content3 .part2 {
-    height: 9.21rem;
+    height: 5.38rem;
     background: url("../img/page3/page3_02.png") no-repeat;
     background-size: 100% 100%;
 }
-
+.content3 .cooperationLog{
+    height: 3.83rem;
+    background: url("../img/page3/cooperationLog_02.png") no-repeat;
+    background-size: 100% 100%;
+}
 .content3 .part3 {
     height: 14.2rem;
     background: url("../img/page3/page3_03.png") no-repeat;

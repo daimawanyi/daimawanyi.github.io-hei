@@ -31,6 +31,7 @@ a {
 
 .header ul {
     font-size: .21rem;
+    line-height: .21rem;
     display: inline-block;
     vertical-align: top;
 }
@@ -39,26 +40,38 @@ a {
     float: left;
     color: #fff;
     opacity: 0.5;
-
 }
 
 .header ul li:nth-of-type(1) {
     margin-top: .64rem;
-    margin-left: 1.23rem;
+    margin-left: .83rem;
     opacity: 1;
+    padding-bottom: .1rem;
+
 }
 
 .header ul li:nth-of-type(2), .header ul li:nth-of-type(4), .header ul li:nth-of-type(6) {
     height: .14rem;
-    border: .01rem solid #FFFFFF;
-    line-height: .14rem;
+    width: 1px;
+    display: block;
+    background: #FFFFFF;
     margin-top: .7rem;
-    margin-left: .27rem;
+    margin-left: .22rem;
 }
 
 .header ul li:nth-of-type(3), .header ul li:nth-of-type(5), .header ul li:nth-of-type(7) {
     margin-top: .65rem;
-    margin-left: .23rem;
+    margin-left: .18rem;
+    padding-bottom: .1rem;
+
+}
+.header ul li:nth-of-type(8){
+    background: url("../img/soundOn.png")no-repeat;
+    background-size: 100% 100%;
+    width: .3rem;
+    height: .32rem;
+    margin-top: .6rem;
+    margin-left: .44rem;
 }
 
 .header ul li a {
@@ -592,7 +605,17 @@ a {
     animation: fadein 4s linear 1s;
     animation-fill-mode: forwards;
 }
-
+.content1 .part12{
+    width: 2.2rem;
+    height: 2.19rem;
+    position: relative;
+    margin-top: -3.57rem;
+    margin-left: 2.1rem;
+}
+.content1 .part12 img{
+    width: 2.2rem;
+    height: 2.19rem;
+}
 
 /********************cont2******************************/
 .content2 {

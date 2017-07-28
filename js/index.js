@@ -17,6 +17,7 @@ var video = document.getElementsByClassName('video')[0];
 
 
 fff[0].style.opacity = 1;
+fff[0].style.borderBottom='.02rem solid white';
 bg.style.height = window.screen.availHeight + 'px';
 vid.style.height= window.screen.availHeight + 'px';
 content1.style.top = bg.style.height;
@@ -132,8 +133,12 @@ function click() {
             }, 1000);
         }
 
-        bg1.src = 'img/bg1.png'
+        bg1.src = 'img/bg1.png';
         fff[0].style.opacity = 1;
+        fff[0].style.borderBottom='.02rem solid white';
+        fff[2].style.borderBottom='';
+        fff[4].style.borderBottom='';
+        fff[6].style.borderBottom='';
         if (fff[0].style.opacity == 1) {
             fff[2].style.opacity = .5;
             fff[4].style.opacity = .5;
@@ -229,6 +234,10 @@ function click() {
         }
         bg1.src = 'img/bg2.png';
         fff[2].style.opacity = 1;
+        fff[2].style.borderBottom='.02rem solid white';
+        fff[0].style.borderBottom='';
+        fff[4].style.borderBottom='';
+        fff[6].style.borderBottom='';
         if (fff[2].style.opacity == 1) {
             fff[0].style.opacity = .5;
             fff[4].style.opacity = .5;
@@ -326,6 +335,10 @@ function click() {
         }
         bg1.src = 'img/bg3.png';
         fff[4].style.opacity = 1;
+        fff[4].style.borderBottom='.02rem solid white';
+        fff[2].style.borderBottom='';
+        fff[0].style.borderBottom='';
+        fff[6].style.borderBottom='';
         if (fff[4].style.opacity == 1) {
             fff[0].style.opacity = .5;
             fff[2].style.opacity = .5;
@@ -425,6 +438,10 @@ function click() {
         }
         bg1.src = 'img/bg4.png';
         fff[6].style.opacity = 1;
+        fff[6].style.borderBottom='.02rem solid white';
+        fff[2].style.borderBottom='';
+        fff[4].style.borderBottom='';
+        fff[0].style.borderBottom='';
         if (fff[6].style.opacity == 1) {
             fff[0].style.opacity = .5;
             fff[2].style.opacity = .5;
@@ -555,6 +572,10 @@ function click() {
         if (content1.style.display == 'block') {
             bg1.src = 'img/bg2.png';
             fff[2].style.opacity = 1;
+            fff[2].style.borderBottom='.02rem solid white';
+            fff[0].style.borderBottom='';
+            fff[4].style.borderBottom='';
+            fff[6].style.borderBottom='';
             if (fff[2].style.opacity == 1) {
                 fff[0].style.opacity = .5;
                 fff[4].style.opacity = .5;
@@ -574,6 +595,10 @@ function click() {
             tmp = 2
             bg1.src = 'img/bg3.png';
             fff[4].style.opacity = 1;
+            fff[4].style.borderBottom='.02rem solid white';
+            fff[2].style.borderBottom='';
+            fff[0].style.borderBottom='';
+            fff[6].style.borderBottom='';
             if (fff[4].style.opacity == 1) {
                 fff[0].style.opacity = .5;
                 fff[2].style.opacity = .5;
@@ -595,6 +620,10 @@ function click() {
             tmp = 3
             bg1.src = 'img/bg4.png';
             fff[6].style.opacity = 1;
+            fff[6].style.borderBottom='.02rem solid white';
+            fff[2].style.borderBottom='';
+            fff[4].style.borderBottom='';
+            fff[0].style.borderBottom='';
             if (fff[6].style.opacity == 1) {
                 fff[0].style.opacity = .5;
                 fff[2].style.opacity = .5;
@@ -615,6 +644,10 @@ function click() {
             tmp = 4
             bg1.src = 'img/bg1.png'
             fff[0].style.opacity = 1;
+            fff[0].style.borderBottom='.02rem solid white';
+            fff[2].style.borderBottom='';
+            fff[4].style.borderBottom='';
+            fff[6].style.borderBottom='';
             if (fff[0].style.opacity == 1) {
                 fff[2].style.opacity = .5;
                 fff[4].style.opacity = .5;
@@ -740,6 +773,10 @@ function click() {
 
             bg1.src = 'img/bg4.png';
             fff[6].style.opacity = 1;
+            fff[6].style.borderBottom='.02rem solid white';
+            fff[2].style.borderBottom='';
+            fff[4].style.borderBottom='';
+            fff[0].style.borderBottom='';
             if (fff[6].style.opacity == 1) {
                 fff[0].style.opacity = .5;
                 fff[2].style.opacity = .5;
@@ -762,6 +799,10 @@ function click() {
             tmp = 2
             bg1.src = 'img/bg1.png'
             fff[0].style.opacity = 1;
+            fff[0].style.borderBottom='.02rem solid white';
+            fff[2].style.borderBottom='';
+            fff[4].style.borderBottom='';
+            fff[6].style.borderBottom='';
             if (fff[0].style.opacity == 1) {
                 fff[2].style.opacity = .5;
                 fff[4].style.opacity = .5;
@@ -784,6 +825,10 @@ function click() {
             tmp = 3
             bg1.src = 'img/bg2.png';
             fff[2].style.opacity = 1;
+            fff[2].style.borderBottom='.02rem solid white';
+            fff[0].style.borderBottom='';
+            fff[4].style.borderBottom='';
+            fff[6].style.borderBottom='';
             if (fff[2].style.opacity == 1) {
                 fff[0].style.opacity = .5;
                 fff[4].style.opacity = .5;
@@ -805,6 +850,10 @@ function click() {
             tmp = 4
             bg1.src = 'img/bg3.png';
             fff[4].style.opacity = 1;
+            fff[4].style.borderBottom='.02rem solid white';
+            fff[2].style.borderBottom='';
+            fff[0].style.borderBottom='';
+            fff[6].style.borderBottom='';
             if (fff[4].style.opacity == 1) {
                 fff[0].style.opacity = .5;
                 fff[2].style.opacity = .5;

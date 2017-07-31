@@ -12,14 +12,24 @@ var right = document.getElementById('right');
 var shadow = document.getElementsByClassName('shadow')[0];
 var vid = document.getElementsByClassName('vid')[0];
 var video = document.getElementsByClassName('video')[0];
+var audio = document.getElementsByTagName('audio')[0];
+fff[7].onclick = function () {
+    if (audio.paused) {
+        audio.play();
+        fff[7].style.backgroundImage='url("img/soundOn.png")'
+    }else{
+        audio.pause();
+        audio.currentTime = 0;
+        fff[7].style.backgroundImage='url("img/soundOff.png")'
 
-
+    }
+};
 
 
 fff[0].style.opacity = 1;
-fff[0].style.borderBottom='.02rem solid white';
+fff[0].style.borderBottom = '.02rem solid white';
 bg.style.height = window.screen.availHeight + 'px';
-vid.style.height= window.screen.availHeight + 'px';
+vid.style.height = window.screen.availHeight + 'px';
 content1.style.top = bg.style.height;
 content1.style.display = 'block';
 function removeClass(curEle, strClass) {
@@ -135,10 +145,10 @@ function click() {
 
         bg1.src = 'img/bg1.png';
         fff[0].style.opacity = 1;
-        fff[0].style.borderBottom='.02rem solid white';
-        fff[2].style.borderBottom='';
-        fff[4].style.borderBottom='';
-        fff[6].style.borderBottom='';
+        fff[0].style.borderBottom = '.02rem solid white';
+        fff[2].style.borderBottom = '';
+        fff[4].style.borderBottom = '';
+        fff[6].style.borderBottom = '';
         if (fff[0].style.opacity == 1) {
             fff[2].style.opacity = .5;
             fff[4].style.opacity = .5;
@@ -234,10 +244,10 @@ function click() {
         }
         bg1.src = 'img/bg2.png';
         fff[2].style.opacity = 1;
-        fff[2].style.borderBottom='.02rem solid white';
-        fff[0].style.borderBottom='';
-        fff[4].style.borderBottom='';
-        fff[6].style.borderBottom='';
+        fff[2].style.borderBottom = '.02rem solid white';
+        fff[0].style.borderBottom = '';
+        fff[4].style.borderBottom = '';
+        fff[6].style.borderBottom = '';
         if (fff[2].style.opacity == 1) {
             fff[0].style.opacity = .5;
             fff[4].style.opacity = .5;
@@ -335,10 +345,10 @@ function click() {
         }
         bg1.src = 'img/bg3.png';
         fff[4].style.opacity = 1;
-        fff[4].style.borderBottom='.02rem solid white';
-        fff[2].style.borderBottom='';
-        fff[0].style.borderBottom='';
-        fff[6].style.borderBottom='';
+        fff[4].style.borderBottom = '.02rem solid white';
+        fff[2].style.borderBottom = '';
+        fff[0].style.borderBottom = '';
+        fff[6].style.borderBottom = '';
         if (fff[4].style.opacity == 1) {
             fff[0].style.opacity = .5;
             fff[2].style.opacity = .5;
@@ -438,10 +448,10 @@ function click() {
         }
         bg1.src = 'img/bg4.png';
         fff[6].style.opacity = 1;
-        fff[6].style.borderBottom='.02rem solid white';
-        fff[2].style.borderBottom='';
-        fff[4].style.borderBottom='';
-        fff[0].style.borderBottom='';
+        fff[6].style.borderBottom = '.02rem solid white';
+        fff[2].style.borderBottom = '';
+        fff[4].style.borderBottom = '';
+        fff[0].style.borderBottom = '';
         if (fff[6].style.opacity == 1) {
             fff[0].style.opacity = .5;
             fff[2].style.opacity = .5;
@@ -572,10 +582,10 @@ function click() {
         if (content1.style.display == 'block') {
             bg1.src = 'img/bg2.png';
             fff[2].style.opacity = 1;
-            fff[2].style.borderBottom='.02rem solid white';
-            fff[0].style.borderBottom='';
-            fff[4].style.borderBottom='';
-            fff[6].style.borderBottom='';
+            fff[2].style.borderBottom = '.02rem solid white';
+            fff[0].style.borderBottom = '';
+            fff[4].style.borderBottom = '';
+            fff[6].style.borderBottom = '';
             if (fff[2].style.opacity == 1) {
                 fff[0].style.opacity = .5;
                 fff[4].style.opacity = .5;
@@ -595,10 +605,10 @@ function click() {
             tmp = 2
             bg1.src = 'img/bg3.png';
             fff[4].style.opacity = 1;
-            fff[4].style.borderBottom='.02rem solid white';
-            fff[2].style.borderBottom='';
-            fff[0].style.borderBottom='';
-            fff[6].style.borderBottom='';
+            fff[4].style.borderBottom = '.02rem solid white';
+            fff[2].style.borderBottom = '';
+            fff[0].style.borderBottom = '';
+            fff[6].style.borderBottom = '';
             if (fff[4].style.opacity == 1) {
                 fff[0].style.opacity = .5;
                 fff[2].style.opacity = .5;
@@ -620,10 +630,10 @@ function click() {
             tmp = 3
             bg1.src = 'img/bg4.png';
             fff[6].style.opacity = 1;
-            fff[6].style.borderBottom='.02rem solid white';
-            fff[2].style.borderBottom='';
-            fff[4].style.borderBottom='';
-            fff[0].style.borderBottom='';
+            fff[6].style.borderBottom = '.02rem solid white';
+            fff[2].style.borderBottom = '';
+            fff[4].style.borderBottom = '';
+            fff[0].style.borderBottom = '';
             if (fff[6].style.opacity == 1) {
                 fff[0].style.opacity = .5;
                 fff[2].style.opacity = .5;
@@ -644,10 +654,10 @@ function click() {
             tmp = 4
             bg1.src = 'img/bg1.png'
             fff[0].style.opacity = 1;
-            fff[0].style.borderBottom='.02rem solid white';
-            fff[2].style.borderBottom='';
-            fff[4].style.borderBottom='';
-            fff[6].style.borderBottom='';
+            fff[0].style.borderBottom = '.02rem solid white';
+            fff[2].style.borderBottom = '';
+            fff[4].style.borderBottom = '';
+            fff[6].style.borderBottom = '';
             if (fff[0].style.opacity == 1) {
                 fff[2].style.opacity = .5;
                 fff[4].style.opacity = .5;
@@ -773,10 +783,10 @@ function click() {
 
             bg1.src = 'img/bg4.png';
             fff[6].style.opacity = 1;
-            fff[6].style.borderBottom='.02rem solid white';
-            fff[2].style.borderBottom='';
-            fff[4].style.borderBottom='';
-            fff[0].style.borderBottom='';
+            fff[6].style.borderBottom = '.02rem solid white';
+            fff[2].style.borderBottom = '';
+            fff[4].style.borderBottom = '';
+            fff[0].style.borderBottom = '';
             if (fff[6].style.opacity == 1) {
                 fff[0].style.opacity = .5;
                 fff[2].style.opacity = .5;
@@ -799,10 +809,10 @@ function click() {
             tmp = 2
             bg1.src = 'img/bg1.png'
             fff[0].style.opacity = 1;
-            fff[0].style.borderBottom='.02rem solid white';
-            fff[2].style.borderBottom='';
-            fff[4].style.borderBottom='';
-            fff[6].style.borderBottom='';
+            fff[0].style.borderBottom = '.02rem solid white';
+            fff[2].style.borderBottom = '';
+            fff[4].style.borderBottom = '';
+            fff[6].style.borderBottom = '';
             if (fff[0].style.opacity == 1) {
                 fff[2].style.opacity = .5;
                 fff[4].style.opacity = .5;
@@ -825,10 +835,10 @@ function click() {
             tmp = 3
             bg1.src = 'img/bg2.png';
             fff[2].style.opacity = 1;
-            fff[2].style.borderBottom='.02rem solid white';
-            fff[0].style.borderBottom='';
-            fff[4].style.borderBottom='';
-            fff[6].style.borderBottom='';
+            fff[2].style.borderBottom = '.02rem solid white';
+            fff[0].style.borderBottom = '';
+            fff[4].style.borderBottom = '';
+            fff[6].style.borderBottom = '';
             if (fff[2].style.opacity == 1) {
                 fff[0].style.opacity = .5;
                 fff[4].style.opacity = .5;
@@ -850,10 +860,10 @@ function click() {
             tmp = 4
             bg1.src = 'img/bg3.png';
             fff[4].style.opacity = 1;
-            fff[4].style.borderBottom='.02rem solid white';
-            fff[2].style.borderBottom='';
-            fff[0].style.borderBottom='';
-            fff[6].style.borderBottom='';
+            fff[4].style.borderBottom = '.02rem solid white';
+            fff[2].style.borderBottom = '';
+            fff[0].style.borderBottom = '';
+            fff[6].style.borderBottom = '';
             if (fff[4].style.opacity == 1) {
                 fff[0].style.opacity = .5;
                 fff[2].style.opacity = .5;
@@ -1260,7 +1270,7 @@ function changeContent() {
         var achievementR1 = document.getElementsByClassName('achievementR1')[0];
         var achievementR2 = document.getElementsByClassName('achievementR2')[0];
         if (offset(achievementR1).top <= cs && offset(achievementR1).top != 0) {
-            if (achievementR1.className == 'achievementR1'){
+            if (achievementR1.className == 'achievementR1') {
                 achievementR1.className += ' ' + 'fade';
                 achievementR2.className += ' ' + 'fade';
             }
@@ -1268,9 +1278,9 @@ function changeContent() {
         var achievementM1 = document.getElementsByClassName('achievementM1')[0];
         var achievementM2 = document.getElementsByClassName('achievementM2')[0];
         if (offset(achievementM1).top <= cs && offset(achievementM1).top != 0) {
-            if (achievementM1.className == 'achievementM1'){
-                achievementM1.className +=' ' + 'biger';
-                achievementM2.className +=' ' + 'biger';
+            if (achievementM1.className == 'achievementM1') {
+                achievementM1.className += ' ' + 'biger';
+                achievementM2.className += ' ' + 'biger';
             }
 
         }
@@ -1283,7 +1293,7 @@ function changeContent() {
         var achievementR3 = document.getElementsByClassName('achievementR3')[0];
         var achievementR4 = document.getElementsByClassName('achievementR4')[0];
         if (offset(achievementR3).top <= cs && offset(achievementR3).top != 0) {
-            if (achievementR3.className == 'achievementR3'){
+            if (achievementR3.className == 'achievementR3') {
                 achievementR3.className += ' ' + 'fade';
                 achievementR4.className += ' ' + 'fade';
             }
@@ -1291,9 +1301,9 @@ function changeContent() {
         var achievementM3 = document.getElementsByClassName('achievementM3')[0];
         var achievementM4 = document.getElementsByClassName('achievementM4')[0];
         if (offset(achievementM3).top <= cs && offset(achievementM3).top != 0) {
-            if (achievementM3.className == 'achievementM3'){
-                achievementM3.className +=' ' + 'biger';
-                achievementM4.className +=' ' + 'biger';
+            if (achievementM3.className == 'achievementM3') {
+                achievementM3.className += ' ' + 'biger';
+                achievementM4.className += ' ' + 'biger';
             }
 
         }
@@ -1379,7 +1389,7 @@ bg.addEventListener('touchmove', function (e) {
     moveX = e.touches[0].pageX - mx;
 })
 bg.addEventListener('touchend', function (e) {
-    try{
+    try {
         if (moveX > 100) {
             left.onclick()
         } else if (moveX < -100) {
@@ -1387,7 +1397,7 @@ bg.addEventListener('touchend', function (e) {
 
 
         }
-    }catch(err){
+    } catch (err) {
         console.log('请滑动')
     }
 

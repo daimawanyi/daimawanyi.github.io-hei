@@ -625,6 +625,7 @@ a {
     position: absolute;
     top: 4.62rem;
     right: .59rem;
+    opacity: 0;
 }
 .content1 .part11 .cjx1{
     background: url("../img/cjx1.png")no-repeat;
@@ -644,6 +645,7 @@ a {
     position: absolute;
     top: 14.47rem;
     left: .59rem;
+    opacity: 0;
 }
 .content1 .part11 .zrh1{
     background: url("../img/zrh1.png")no-repeat;
@@ -654,7 +656,6 @@ a {
     top: 15.79rem;
     right: .59rem;
     opacity: 0;
-
 }
 .content1 .part11 .wd{
     background: url("../img/wd.png")no-repeat;
@@ -664,6 +665,8 @@ a {
     position: absolute;
     top: 21.72rem;
     right: .59rem;
+    opacity: 0;
+
 }
 .content1 .part11 .wq{
     background: url("../img/wq.png")no-repeat;
@@ -673,6 +676,8 @@ a {
     position: absolute;
     top: 24.54rem;
     left: .59rem;
+    opacity: 0;
+
 }
 .content1 .part11 .lja{
     background: url("../img/lja.png")no-repeat;
@@ -682,6 +687,8 @@ a {
     position: absolute;
     top: 27.37rem;
     right: .59rem;
+    opacity: 0;
+
 }
 
 /********************cont2******************************/
@@ -699,36 +706,42 @@ a {
     height: 4.18rem;
     background: url("../img/page2/M-02_05.png") no-repeat;
     background-size: 100% 100%;
+    opacity: 0;
 }
 
 .content2 .part4 {
     height: 4.08rem;
     background: url("../img/page2/M-02_06.png") no-repeat;
     background-size: 100% 100%;
+    opacity: 0;
 }
 
 .content2 .part5 {
     height: 4.08rem;
     background: url("../img/page2/M-02_07.png") no-repeat;
     background-size: 100% 100%;
+    opacity: 0;
 }
 
 .content2 .part6 {
     height: 4.98rem;
     background: url("../img/page2/M-02_08.png") no-repeat;
     background-size: 100% 100%;
+    opacity: 0;
 }
 
 .content2 .part7 {
     height: 4.89rem;
     background: url("../img/page2/M-02_09.png") no-repeat;
     background-size: 100% 100%;
+    opacity: 0;
 }
 
 .content2 .part8 {
     height: 4.87rem;
     background: url("../img/page2/M-02_10.png") no-repeat;
     background-size: 100% 100%;
+    opacity: 0;
 }
 
 .content2 .part9 {
@@ -741,24 +754,28 @@ a {
     height: 2.03rem;
     background: url("../img/page2/M-02_13.png") no-repeat;
     background-size: 100% 100%;
+    opacity: 0;
 }
 
 .content2 .part11 {
     height: 2.03rem;
     background: url("../img/page2/M-02_14.png") no-repeat;
     background-size: 100% 100%;
+    opacity: 0;
 }
 
 .content2 .part12 {
     height: 2.03rem;
     background: url("../img/page2/M-02_15.png") no-repeat;
     background-size: 100% 100%;
+    opacity: 0;
 }
 
 .content2 .part13 {
     height: 1.8rem;
     background: url("../img/page2/M-02_16.png") no-repeat;
     background-size: 100% 100%;
+    opacity: 0;
 }
 
 .content2 .part14 {
@@ -771,18 +788,21 @@ a {
     height: 2.48rem;
     background: url("../img/page2/M-02_18.png") no-repeat;
     background-size: 100% 100%;
+    opacity: 0;
 }
 
 .content2 .part16 {
     height: 2.75rem;
     background: url("../img/page2/M-02_19.png") no-repeat;
     background-size: 100% 100%;
+    opacity: 0;
 }
 
 .content2 .part17 {
     height: 3.93rem;
     background: url("../img/page2/M-02_20.png") no-repeat;
     background-size: 100% 100%;
+    opacity: 0;
 }
 
 .content2 .part18 {
@@ -795,24 +815,28 @@ a {
     height: 2.2rem;
     background: url("../img/page2/M-02_22.png") no-repeat;
     background-size: 100% 100%;
+    opacity: 0;
 }
 
 .content2 .part20 {
     height: 2.6rem;
     background: url("../img/page2/M-02_23.png") no-repeat;
     background-size: 100% 100%;
+    opacity: 0;
 }
 
 .content2 .part21 {
     height: 2.2rem;
     background: url("../img/page2/M-02_24.png") no-repeat;
     background-size: 100% 100%;
+    opacity: 0;
 }
 
 .content2 .part22 {
     height: 2.4rem;
     background: url("../img/page2/M-02_25.png") no-repeat;
     background-size: 100% 100%;
+    opacity: 0;
 }
 
 .content2 .part23 {
@@ -825,12 +849,14 @@ a {
     height: 3.4rem;
     background: url("../img/page2/M-02_27.png") no-repeat;
     background-size: 100% 100%;
+    opacity: 0;
 }
 
 .content2 .part25 {
     height: 6.86rem;
     background: url("../img/page2/M-02_28.png") no-repeat;
     background-size: 100% 100%;
+    opacity: 0;
 }
 
 /*.content2 .part26 {
@@ -1189,6 +1215,7 @@ a {
     height: 2.51rem;
     background: url("../img/page4/page4_03.png") no-repeat;
     background-size: 100% 100%;
+    opacity: 0;
 }
 
 .content4 .part4 {
@@ -1201,6 +1228,7 @@ a {
     height: 1.82rem;
     background: url("../img/page4/page4_05.png") no-repeat;
     background-size: 100% 100%;
+    opacity: 0;
 }
 
 .content4 .part6 {
@@ -1213,6 +1241,7 @@ a {
     height: 1.82rem;
     background: url("../img/page4/page4_07.png") no-repeat;
     background-size: 100% 100%;
+    opacity: 0;
 }
 
 .content4 .part8 {
@@ -1225,6 +1254,7 @@ a {
     height: 1.82rem;
     background: url("../img/page4/page4_09.png") no-repeat;
     background-size: 100% 100%;
+    opacity: 0;
 }
 
 .content4 .part10 {
@@ -1237,24 +1267,28 @@ a {
     height: 5.85rem;
     background: url("../img/page4/page4_11.png") no-repeat;
     background-size: 100% 100%;
+    opacity: 0;
 }
 
 .content4 .part12 {
     height: 4.54rem;
     background: url("../img/page4/page4_13.png") no-repeat;
     background-size: 100% 100%;
+    opacity: 0;
 }
 
 .content4 .part13 {
     height: 7.13rem;
     background: url("../img/page4/page4_14.png") no-repeat;
     background-size: 100% 100%;
+    opacity: 0;
 }
 
 .content4 .part14 {
     height: 4.39rem;
     background: url("../img/page4/page4_15.png") no-repeat;
     background-size: 100% 100%;
+    opacity: 0;
 }
 
 .content4 .part15 {

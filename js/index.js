@@ -15,15 +15,17 @@ var video = document.getElementsByClassName('video')[0];
 var audio = document.getElementsByTagName('audio')[0];
 document.addEventListener("WeixinJSBridgeReady", function () {
     audio.play();
+    audio.loop;
 }, false);
 fff[7].onclick = function () {
     if (audio.paused) {
         audio.play();
-        fff[7].style.backgroundImage='url("img/soundOn.png")'
-    }else{
+        audio.loop;
+        fff[7].style.backgroundImage = 'url("img/soundOn.png")'
+    } else {
         audio.pause();
         audio.currentTime = 0;
-        fff[7].style.backgroundImage='url("img/soundOff.png")'
+        fff[7].style.backgroundImage = 'url("img/soundOff.png")'
 
     }
 };
@@ -948,7 +950,58 @@ function changeContent() {
             }
 
         }
+        var cjx = document.getElementsByClassName('cjx')[0];
+        if (offset(cjx).top <= cs) {
+            if (cjx.className == 'cjx')
+                cjx.className += ' ' + 'animated' + ' ' + 'fadeInRight';
+            cjx.style.animationDuration = '2s';
+            cjx.style.animationDelay = '.3s';
 
+        }
+        var cjx1 = document.getElementsByClassName('cjx1')[0];
+        if (offset(cjx1).top <= cs) {
+            if (cjx1.className == 'cjx1')
+                cjx1.className += ' ' + 'fade1';
+
+        }
+        var zrh = document.getElementsByClassName('zrh')[0];
+        if (offset(zrh).top <= cs) {
+            if (zrh.className == 'zrh')
+                zrh.className += ' ' + 'animated' + ' ' + 'fadeInLeft';
+            zrh.style.animationDuration = '2s';
+            zrh.style.animationDelay = '.3s';
+
+        }
+        var zrh1 = document.getElementsByClassName('zrh1')[0];
+        if (offset(zrh1).top <= cs) {
+            if (zrh1.className == 'zrh1')
+                zrh1.className += ' ' + 'fade1';
+
+        }
+        var wd = document.getElementsByClassName('wd')[0];
+        if (offset(wd).top <= cs) {
+            if (wd.className == 'wd')
+                wd.className += ' ' + 'animated' + ' ' + 'fadeInRight';
+            wd.style.animationDuration = '2s';
+            wd.style.animationDelay = '.3s';
+
+        }
+        var wq = document.getElementsByClassName('wq')[0];
+        if (offset(wq).top <= cs) {
+            if (wq.className == 'wq')
+                wq.className += ' ' + 'animated' + ' ' + 'fadeInLeft';
+            wq.style.animationDuration = '2s';
+            wq.style.animationDelay = '.3s';
+
+        }
+        var lja = document.getElementsByClassName('lja')[0];
+        if (offset(lja).top <= cs) {
+            if (lja.className == 'lja')
+                lja.className += ' ' + 'animated' + ' ' + 'fadeInRight';
+            lja.style.animationDuration = '2s';
+            lja.style.animationDelay = '.3s';
+
+        }
         var dhl = document.getElementsByClassName('dhl')[0];
         if (offset(dhl).top <= cs) {
             if (dhl.className == 'dhl')

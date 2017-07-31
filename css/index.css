@@ -425,6 +425,7 @@ a {
     height: 42.5rem;
     background: url("../img/patr1_12.png") no-repeat;
     background-size: 100% 100%;
+    position: relative;
 }
 .content1 .developmenthistory{
     height: 12.81rem;
@@ -615,6 +616,72 @@ a {
 .content1 .part12 img{
     width: 2.2rem;
     height: 2.19rem;
+}
+.content1 .part11 .cjx{
+    background: url("../img/cjx.png")no-repeat;
+    background-size: 100% 100%;
+    width: 2.65rem;
+    height: .86rem;
+    position: absolute;
+    top: 4.62rem;
+    right: .59rem;
+}
+.content1 .part11 .cjx1{
+    background: url("../img/cjx1.png")no-repeat;
+    background-size: 100% 100%;
+    width: 5.19rem;
+    height: 3.77rem;
+    position: absolute;
+    top: 5.95rem;
+    right: .59rem;
+    opacity: 0;
+}
+.content1 .part11 .zrh{
+    background: url("../img/zrh.png")no-repeat;
+    background-size: 100% 100%;
+    width: 1.82rem;
+    height: .86rem;
+    position: absolute;
+    top: 14.47rem;
+    left: .59rem;
+}
+.content1 .part11 .zrh1{
+    background: url("../img/zrh1.png")no-repeat;
+    background-size: 100% 100%;
+    width: 5.2rem;
+    height: 2.69rem;
+    position: absolute;
+    top: 15.79rem;
+    right: .59rem;
+    opacity: 0;
+
+}
+.content1 .part11 .wd{
+    background: url("../img/wd.png")no-repeat;
+    background-size: 100% 100%;
+    width: 1.85rem;
+    height: .84rem;
+    position: absolute;
+    top: 21.72rem;
+    right: .59rem;
+}
+.content1 .part11 .wq{
+    background: url("../img/wq.png")no-repeat;
+    background-size: 100% 100%;
+    width: 1.82rem;
+    height: .85rem;
+    position: absolute;
+    top: 24.54rem;
+    left: .59rem;
+}
+.content1 .part11 .lja{
+    background: url("../img/lja.png")no-repeat;
+    background-size: 100% 100%;
+    width: 1.85rem;
+    height: .85rem;
+    position: absolute;
+    top: 27.37rem;
+    right: .59rem;
 }
 
 /********************cont2******************************/
@@ -974,6 +1041,7 @@ a {
     width: 5.2rem;
     position: absolute;
     margin: 7.58rem 0 0 .6rem;
+    opacity: 0;
 }
 .content2 .part33 .achievementBorder .achievementR1{
     background: url("../img/page2/achievementRound1.png") no-repeat;
@@ -1014,6 +1082,7 @@ a {
     width: 5.2rem;
     position: absolute;
     margin: 10.78rem 0 0 .6rem;
+    opacity: 0;
 }
 .content2 .part33 .achievementBg .achievementR3{
     background: url("../img/page2/achievementRound3.png") no-repeat;
@@ -1195,13 +1264,15 @@ a {
 }
 
 .fade {
-    animation: fadein 1s linear 1;
+    animation: fadein 1s linear 1s;
+    animation-fill-mode: forwards;
 }
 .fade1 {
-    animation: fadein 1.5s linear 1;
+    animation: fadein 1.5s linear 1s;
+    animation-fill-mode: forwards;
 }
 .fade2 {
-    animation: fadeout 1.5s linear 1;
+    animation: fadeout 1.5s linear 1s;
     animation-fill-mode: forwards;
 }
 

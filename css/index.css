@@ -85,6 +85,7 @@ a {
     left: 0;
     height: 1.26rem;
     width: 100%;
+    opacity: 0;
 }
 .first-screen .shadow1{
     background: url("../img/shadow.png")no-repeat;
@@ -479,8 +480,8 @@ a {
 .content1 .developmenthistory .d2013 li:nth-of-type(1){
     background: url("../img/2013.png") no-repeat;
     background-size: 100% 100%;
-    height: .84rem;
-    width: 2.16rem;
+    height: .85rem;
+    width: 2.2rem;
     position: absolute;
     margin: 4.18rem 0 0 0.67rem;
 }
@@ -519,8 +520,8 @@ a {
 .content1 .developmenthistory .d2014 li:nth-of-type(3){
     background: url("../img/2014.png") no-repeat;
     background-size: 100% 100%;
-    height: .84rem;
-    width: 2.15rem;
+    height: .83rem;
+    width: 2.2rem;
     position: absolute;
     margin: 6.15rem 0 0 3.6rem;
 }
@@ -543,16 +544,16 @@ a {
 .content1 .developmenthistory .d2015 li:nth-of-type(3){
     background: url("../img/2015.png") no-repeat;
     background-size: 100% 100%;
-    height: 1.2rem;
-    width: 2.16rem;
+    height: 1.56rem;
+    width: 2.01rem;
     position: absolute;
-    margin: 8.18rem 0 0 3.6rem;
+    margin: 7.96rem 0 0 3.6rem;
 }
 .content1 .developmenthistory .d2016 li:nth-of-type(1){
     background: url("../img/2016.png") no-repeat;
     background-size: 100% 100%;
     height: 1.2rem;
-    width: 2.17rem;
+    width: 2.01rem;
     position: absolute;
     margin: 10.76rem 0 0 0.67rem;
 }
@@ -613,6 +614,7 @@ a {
     position: relative;
     margin-top: -3.57rem;
     margin-left: 2.1rem;
+    overflow-y:hidden;
 }
 .content1 .part12 img{
     width: 2.2rem;
@@ -1149,6 +1151,7 @@ a {
     position: relative;
     margin-top: -3.57rem;
     margin-left: 2.1rem;
+    overflow-y:hidden;
 }
 .content2 .part34 img{
     width: 2.2rem;
@@ -1196,6 +1199,7 @@ a {
     position: relative;
     margin-top: -3.57rem;
     margin-left: 2.1rem;
+    overflow-y:hidden;
 }
 .content3 .QR img,.content4 .QR img{
     width: 2.2rem;
@@ -1259,7 +1263,7 @@ a {
 }
 
 .content4 .part10 {
-    height: 77.19rem;
+    height: 76.36rem;
     background: url("../img/page4/page4_10.png") no-repeat;
     background-size: 100% 100%;
 }
@@ -1279,7 +1283,7 @@ a {
 }
 
 .content4 .part13 {
-    height: 7.13rem;
+    height: 8.38rem;
     background: url("../img/page4/page4_14.png") no-repeat;
     background-size: 100% 100%;
     opacity: 0;
@@ -1293,7 +1297,7 @@ a {
 }
 
 .content4 .part15 {
-    height: 14.36rem;
+    height: 13.94rem;
     background: url("../img/page4/page4_16.png") no-repeat;
     background-size: 100% 100%;
 }

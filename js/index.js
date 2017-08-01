@@ -913,13 +913,14 @@ function changeContent() {
                 shadow.style.background = '#704781';
             }
             if (shadow.className == 'shadow fade2' || shadow.className == 'shadow') {
-                shadow.className = 'shadow fade1'
+                shadow.style.opacity=0;
+                shadow.className = 'shadow fade1';
             }
         } else {
             if (shadow.className == 'shadow fade1') {
+                shadow.style.opacity=1;
                 shadow.className = 'shadow fade2'
             }
-
         }
         /*if (s >= bg.clientHeight) {
          if(fff[0].style.opacity == 1){

@@ -72,7 +72,7 @@ function click() {
             bg1.className = 'animated slideInLeft'
             setTimeout(function () {
                 removeClass(bg1, 'animated slideInLeft');
-            }, 1000);
+            }, 2000);
 
             video.className += ' ' + 'fir-act2-1';
             setTimeout(function () {
@@ -94,12 +94,12 @@ function click() {
                 removeClass(video, 'cont4-21');
                 removeClass(video, 'cont4-31');
                 video.className += ' ' + 'cont2-11'
-            }, 1000);
+            }, 2000);
         } else if (fff[4].style.opacity == 1) {
             bg1.className = 'animated slideInLeft'
             setTimeout(function () {
                 removeClass(bg1, 'animated slideInLeft');
-            }, 1000);
+            }, 2000);
 
             video.className += ' ' + 'fir-act3-1';
             setTimeout(function () {
@@ -120,12 +120,12 @@ function click() {
                 removeClass(video, 'cont4-21');
                 removeClass(video, 'cont4-31');
                 video.className += ' ' + 'cont3-11'
-            }, 1000);
+            }, 2000);
         } else if (fff[6].style.opacity == 1) {
             bg1.className = 'animated slideInLeft'
             setTimeout(function () {
                 removeClass(bg1, 'animated slideInLeft');
-            }, 1000);
+            }, 2000);
 
             video.className += ' ' + 'fir-act4-1';
             setTimeout(function () {
@@ -145,7 +145,7 @@ function click() {
                 removeClass(video, 'cont4-21');
                 removeClass(video, 'cont4-31');
                 video.className += ' ' + 'cont4-11'
-            }, 1000);
+            }, 2000);
         }
 
         bg1.src = 'img/bg1.png';
@@ -174,7 +174,7 @@ function click() {
             bg1.className = 'animated slideInRight'
             setTimeout(function () {
                 removeClass(bg1, 'animated slideInRight');
-            }, 1000);
+            }, 2000);
 
             video.className += ' ' + 'fir-act1-2';
             setTimeout(function () {
@@ -194,12 +194,12 @@ function click() {
                 removeClass(video, 'cont4-21');
                 removeClass(video, 'cont4-31');
                 video.className += ' ' + 'cont1-21'
-            }, 1000);
+            }, 2000);
         } else if (fff[4].style.opacity == 1) {
             bg1.className = 'animated slideInLeft'
             setTimeout(function () {
                 removeClass(bg1, 'animated slideInLeft');
-            }, 1000);
+            }, 2000);
 
             video.className += ' ' + 'fir-act3-2';
             setTimeout(function () {
@@ -220,12 +220,12 @@ function click() {
                 removeClass(video, 'cont4-31');
 
                 video.className += ' ' + 'cont3-21'
-            }, 1000);
+            }, 2000);
         } else if (fff[6].style.opacity == 1) {
             bg1.className = 'animated slideInLeft'
             setTimeout(function () {
                 removeClass(bg1, 'animated slideInLeft');
-            }, 1000);
+            }, 2000);
 
             video.className += ' ' + 'fir-act4-2';
             setTimeout(function () {
@@ -245,7 +245,7 @@ function click() {
                 removeClass(video, 'cont4-21');
                 removeClass(video, 'cont4-31');
                 video.className += ' ' + 'cont4-21'
-            }, 1000);
+            }, 2000);
         }
         bg1.src = 'img/bg2.png';
         fff[2].style.opacity = 1;
@@ -275,7 +275,7 @@ function click() {
             bg1.className = 'animated slideInRight'
             setTimeout(function () {
                 removeClass(bg1, 'animated slideInRight');
-            }, 1000);
+            }, 2000);
 
             video.className += ' ' + 'fir-act1-3';
             setTimeout(function () {
@@ -296,12 +296,12 @@ function click() {
                 removeClass(video, 'cont4-21');
                 removeClass(video, 'cont4-31');
                 video.className += ' ' + 'cont1-31'
-            }, 1000);
+            }, 2000);
         } else if (fff[2].style.opacity == 1) {
             bg1.className = 'animated slideInRight'
             setTimeout(function () {
                 removeClass(bg1, 'animated slideInRight');
-            }, 1000);
+            }, 2000);
 
             video.className += ' ' + 'fir-act2-3';
             setTimeout(function () {
@@ -321,12 +321,12 @@ function click() {
                 removeClass(video, 'cont4-21');
                 removeClass(video, 'cont4-31');
                 video.className += ' ' + 'cont2-31'
-            }, 1000);
+            }, 2000);
         } else if (fff[6].style.opacity == 1) {
             bg1.className = 'animated slideInLeft'
             setTimeout(function () {
                 removeClass(bg1, 'animated slideInLeft');
-            }, 1000);
+            }, 2000);
 
             video.className += ' ' + 'fir-act4-3';
             setTimeout(function () {
@@ -346,7 +346,7 @@ function click() {
                 removeClass(video, 'cont4-21');
                 removeClass(video, 'cont4-31');
                 video.className += ' ' + 'cont4-31'
-            }, 1000);
+            }, 2000);
         }
         bg1.src = 'img/bg3.png';
         fff[4].style.opacity = 1;
@@ -376,7 +376,7 @@ function click() {
             bg1.className = 'animated slideInRight'
             setTimeout(function () {
                 removeClass(bg1, 'animated slideInRight');
-            }, 1000);
+            }, 2000);
 
             video.className += ' ' + 'fir-act1-4';
             setTimeout(function () {
@@ -398,12 +398,12 @@ function click() {
                 removeClass(video, 'cont4-21');
                 removeClass(video, 'cont4-31');
                 video.className += ' ' + 'cont1-41'
-            }, 1000);
+            }, 2000);
         } else if (fff[2].style.opacity == 1) {
             bg1.className = 'animated slideInRight'
             setTimeout(function () {
                 removeClass(bg1, 'animated slideInRight');
-            }, 1000);
+            }, 2000);
 
             video.className += ' ' + 'fir-act2-4';
             setTimeout(function () {
@@ -424,12 +424,12 @@ function click() {
                 removeClass(video, 'cont4-21');
                 removeClass(video, 'cont4-31');
                 video.className += ' ' + 'cont2-41'
-            }, 1000);
+            }, 2000);
         } else if (fff[4].style.opacity == 1) {
             bg1.className = 'animated slideInRight'
             setTimeout(function () {
                 removeClass(bg1, 'animated slideInRight');
-            }, 1000);
+            }, 2000);
 
             video.className += ' ' + 'fir-act3-4';
             setTimeout(function () {
@@ -449,7 +449,7 @@ function click() {
                 removeClass(video, 'cont4-21');
                 removeClass(video, 'cont4-31');
                 video.className += ' ' + 'cont3-41'
-            }, 1000);
+            }, 2000);
         }
         bg1.src = 'img/bg4.png';
         fff[6].style.opacity = 1;
@@ -479,7 +479,7 @@ function click() {
             bg1.className = 'animated slideInRight'
             setTimeout(function () {
                 removeClass(bg1, 'animated slideInRight');
-            }, 1000);
+            }, 2000);
 
             video.className += ' ' + 'fir-act1-2';
             setTimeout(function () {
@@ -508,12 +508,12 @@ function click() {
                 removeClass(video, 'cont4-21');
                 removeClass(video, 'cont4-31');
                 video.className += ' ' + 'cont1-21'
-            }, 1000);
+            }, 2000);
         } else if (fff[2].style.opacity == 1) {
             bg1.className = 'animated slideInRight'
             setTimeout(function () {
                 removeClass(bg1, 'animated slideInRight');
-            }, 1000);
+            }, 2000);
 
             video.className += ' ' + 'fir-act2-3';
             setTimeout(function () {
@@ -532,12 +532,12 @@ function click() {
                 removeClass(video, 'cont4-31');
 
                 video.className += ' ' + 'cont2-31'
-            }, 1000);
+            }, 2000);
         } else if (fff[4].style.opacity == 1) {
             bg1.className = 'animated slideInRight'
             setTimeout(function () {
                 removeClass(bg1, 'animated slideInRight');
-            }, 1000);
+            }, 2000);
 
             video.className += ' ' + 'fir-act3-4';
             setTimeout(function () {
@@ -556,12 +556,12 @@ function click() {
                 removeClass(video, 'cont4-31');
 
                 video.className += ' ' + 'cont3-41'
-            }, 1000);
+            }, 2000);
         } else if (fff[6].style.opacity == 1) {
             bg1.className = 'animated slideInLeft'
             setTimeout(function () {
                 removeClass(bg1, 'animated slideInLeft');
-            }, 1000);
+            }, 2000);
 
             video.className += ' ' + 'fir-act4-1';
             setTimeout(function () {
@@ -580,7 +580,7 @@ function click() {
                 removeClass(video, 'cont4-31');
 
                 video.className += ' ' + 'cont4-11'
-            }, 1000);
+            }, 2000);
         }
 
 
@@ -688,7 +688,7 @@ function click() {
             bg1.className = 'animated slideInRight'
             setTimeout(function () {
                 removeClass(bg1, 'animated slideInRight');
-            }, 1000);
+            }, 2000);
 
             video.className += ' ' + 'fir-act1-4';
             setTimeout(function () {
@@ -707,12 +707,12 @@ function click() {
                 removeClass(video, 'cont4-31');
 
                 video.className += ' ' + 'cont1-41'
-            }, 1000);
+            }, 2000);
         } else if (fff[2].style.opacity == 1) {
             bg1.className = 'animated slideInLeft'
             setTimeout(function () {
                 removeClass(bg1, 'animated slideInLeft');
-            }, 1000);
+            }, 2000);
 
             video.className += ' ' + 'fir-act2-1';
             setTimeout(function () {
@@ -731,12 +731,12 @@ function click() {
                 removeClass(video, 'cont4-31');
 
                 video.className += ' ' + 'cont2-11'
-            }, 1000);
+            }, 2000);
         } else if (fff[4].style.opacity == 1) {
             bg1.className = 'animated slideInLeft'
             setTimeout(function () {
                 removeClass(bg1, 'animated slideInLeft');
-            }, 1000);
+            }, 2000);
 
             video.className += ' ' + 'fir-act3-2';
             setTimeout(function () {
@@ -755,12 +755,12 @@ function click() {
                 removeClass(video, 'cont4-31');
 
                 video.className += ' ' + 'cont3-21'
-            }, 1000);
+            }, 2000);
         } else if (fff[6].style.opacity == 1) {
             bg1.className = 'animated slideInLeft'
             setTimeout(function () {
                 removeClass(bg1, 'animated slideInLeft');
-            }, 1000);
+            }, 2000);
 
             video.className += ' ' + 'fir-act4-3';
             setTimeout(function () {
@@ -779,7 +779,7 @@ function click() {
                 removeClass(video, 'cont4-31');
 
                 video.className += ' ' + 'cont4-31'
-            }, 1000);
+            }, 2000);
         }
 
 
